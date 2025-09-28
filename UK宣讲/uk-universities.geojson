@@ -1,0 +1,73 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -2.899, 56.339 ]
+      },
+      "properties": {
+        "name": "圣安德鲁斯大学",
+        "applications": "35,000",
+        "admissions": "4,500",
+        "ranking": "2026 Times 第2名",
+        "website": "https://www.st-andrews.ac.uk/",
+        "img": "imgs/SA_logo.jpeg",
+        "tuition": "本科: £24,000-£33,000/年",
+        "popularMajors": "历史学、哲学、物理学、国际政治、经济学"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -2.2374, 53.4808 ]
+      },
+      "properties": {
+        "name": "曼彻斯特大学",
+        "applications": "68,000",
+        "admissions": "9,200",
+        "ranking": "2026 Times 第5名",
+        "website": "https://www.manchester.ac.uk/",
+        "img": "imgs/UoM_logo.jpeg",
+        "tuition": "本科: £23,000-£35,000/年",
+        "popularMajors": "计算机科学、工程学、商学、医学、材料科学"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -0.1338, 51.5224 ]
+      },
+      "properties": {
+        "name": "伦敦大学学院(UCL)",
+        "applications": "80,000",
+        "admissions": "7,500",
+        "ranking": "2026 Times 第9名",
+        "website": "https://www.ucl.ac.uk/",
+        "img": "imgs/UCL_logo.jpeg",
+        "tuition": "本科: £26,800-£39,800/年",
+        "popularMajors": "工程学、数学、经济学、心理学"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -3.1875, 55.9486 ]
+      },
+      "properties": {
+        "name": "爱丁堡大学",
+        "applications": "65,000",
+        "admissions": "9,800",
+        "ranking": "2026 Times 第6名",
+        "website": "https://www.ed.ac.uk/",
+        "img": "imgs/EU_logo.jpeg",
+        "tuition": "本科: £24,000-£36,000/年",
+        "popularMajors": "医学、人工智能、金融学、艺术史、工程学"
+      }
+    }
+  ]
+}

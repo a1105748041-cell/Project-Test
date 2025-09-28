@@ -1,0 +1,290 @@
+[
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "Arts and Sciences BASc",
+    "Apps": 1110,
+    "Offers": 695,
+    "Places": 201,
+    "Apps per offer": 1.6,
+    "Apps per place": 5.5
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "SELCS",
+    "Apps": 1316,
+    "Offers": 1022,
+    "Places": 224,
+    "Apps per offer": 1.3,
+    "Apps per place": 5.9
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "English",
+    "Apps": 767,
+    "Offers": 351,
+    "Places": 112,
+    "Apps per offer": 2.2,
+    "Apps per place": 6.8
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "Euro. Social and Pol. Stds BA",
+    "Apps": 601,
+    "Offers": 323,
+    "Places": 104,
+    "Apps per offer": 1.9,
+    "Apps per place": 5.8
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "Slade School of Fine Art",
+    "Apps": 1110,
+    "Offers": 71,
+    "Places": 50,
+    "Apps per offer": 15.6,
+    "Apps per place": 22.2
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "Greek & Latin",
+    "Apps": 292,
+    "Offers": 257,
+    "Places": 60,
+    "Apps per offer": 1.1,
+    "Apps per place": 4.9
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "Hebrew & Jewish Stds",
+    "Apps": 31,
+    "Offers": 27,
+    "Places": 12,
+    "Apps per offer": 1.1,
+    "Apps per place": 2.6
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "Philosophy",
+    "Apps": 617,
+    "Offers": 375,
+    "Places": 90,
+    "Apps per offer": 1.6,
+    "Apps per place": 6.9
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "Information Studies",
+    "Apps": 217,
+    "Offers": 103,
+    "Places": 22,
+    "Apps per offer": 2.1,
+    "Apps per place": 9.9
+  },
+  {
+    "Faculty": "Arts and Humanities",
+    "Programme": "SSEES",
+    "Apps": 1839,
+    "Offers": 921,
+    "Places": 255,
+    "Apps per offer": 2.0,
+    "Apps per place": 7.2
+  },
+  {
+    "Faculty": "Brain Sciences",
+    "Programme": "Ear Institute",
+    "Apps": 90,
+    "Offers": 55,
+    "Places": 18,
+    "Apps per offer": 1.6,
+    "Apps per place": 5.0
+  },
+  {
+    "Faculty": "Brain Sciences",
+    "Programme": "Linguistics",
+    "Apps": 280,
+    "Offers": 233,
+    "Places": 50,
+    "Apps per offer": 1.2,
+    "Apps per place": 5.6
+  },
+  {
+    "Faculty": "Brain Sciences",
+    "Programme": "Psychology",
+    "Apps": 2428,
+    "Offers": 423,
+    "Places": 169,
+    "Apps per offer": 5.7,
+    "Apps per place": 14.4
+  },
+  {
+    "Faculty": "Brain Sciences",
+    "Programme": "Psychology & Lang. Sciences BSc",
+    "Apps": 279,
+    "Offers": 157,
+    "Places": 52,
+    "Apps per offer": 1.8,
+    "Apps per place": 5.4
+  },
+  {
+    "Faculty": "Brain Sciences",
+    "Programme": "Neurology",
+    "Apps": 277,
+    "Offers": 69,
+    "Places": 20,
+    "Apps per offer": 4.0,
+    "Apps per place": 13.9
+  },
+  {
+    "Faculty": "Built Environment",
+    "Programme": "Architecture",
+    "Apps": 3109,
+    "Offers": 385,
+    "Places": 232,
+    "Apps per offer": 8.1,
+    "Apps per place": 13.4
+  },
+  {
+    "Faculty": "Built Environment",
+    "Programme": "Environment, Energy and Resources",
+    "Apps": 273,
+    "Offers": 134,
+    "Places": 40,
+    "Apps per offer": 2.0,
+    "Apps per place": 6.8
+  },
+  {
+    "Faculty": "Built Environment",
+    "Programme": "Planning",
+    "Apps": 581,
+    "Offers": 182,
+    "Places": 60,
+    "Apps per offer": 3.2,
+    "Apps per place": 9.7
+  },
+  {
+    "Faculty": "Built Environment",
+    "Programme": "Sustainable Construction",
+    "Apps": 139,
+    "Offers": 85,
+    "Places": 30,
+    "Apps per offer": 1.6,
+    "Apps per place": 4.6
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Biochemical Engineering",
+    "Apps": 518,
+    "Offers": 426,
+    "Places": 90,
+    "Apps per offer": 1.2,
+    "Apps per place": 5.8
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Chemical Engineering",
+    "Apps": 1403,
+    "Offers": 459,
+    "Places": 147,
+    "Apps per offer": 3.1,
+    "Apps per place": 9.5
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Civil, Environ. & Geomatic Eng.",
+    "Apps": 701,
+    "Offers": 382,
+    "Places": 105,
+    "Apps per offer": 1.8,
+    "Apps per place": 6.7
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Computer Science",
+    "Apps": 5549,
+    "Offers": 633,
+    "Places": 210,
+    "Apps per offer": 8.8,
+    "Apps per place": 26.4
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Electronic & Electrical Eng.",
+    "Apps": 1770,
+    "Offers": 388,
+    "Places": 120,
+    "Apps per offer": 4.6,
+    "Apps per place": 14.8
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Integrated Foundation Years",
+    "Apps": 1231,
+    "Offers": 49,
+    "Places": 42,
+    "Apps per offer": 25.1,
+    "Apps per place": 29.3
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "UCL School of Management - IMB",
+    "Apps": 1591,
+    "Offers": 282,
+    "Places": 127,
+    "Apps per offer": 5.6,
+    "Apps per place": 12.5
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "UCL School of Management - Mgt Sci",
+    "Apps": 970,
+    "Offers": 211,
+    "Places": 90,
+    "Apps per offer": 4.6,
+    "Apps per place": 10.8
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Mechanical Engineering",
+    "Apps": 3201,
+    "Offers": 701,
+    "Places": 214,
+    "Apps per offer": 4.6,
+    "Apps per place": 15.0
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Medical Physics - Biomedical Engineering",
+    "Apps": 849,
+    "Offers": 423,
+    "Places": 105,
+    "Apps per offer": 2.0,
+    "Apps per place": 8.1
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Medical Physics - Med Phys",
+    "Apps": 161,
+    "Offers": 135,
+    "Places": 28,
+    "Apps per offer": 1.2,
+    "Apps per place": 5.8
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Security and Crime Science",
+    "Apps": 252,
+    "Offers": 160,
+    "Places": 60,
+    "Apps per offer": 1.6,
+    "Apps per place": 4.2
+  },
+  {
+    "Faculty": "Engineering Sciences",
+    "Programme": "Science, Technology, Engineering and Public Policy",
+    "Apps": 189,
+    "Offers": 87,
+    "Places": 25,
+    "Apps per offer": 2.2,
+    "Apps per place": 7.6
+  }
+]
