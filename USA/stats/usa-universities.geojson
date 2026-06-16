@@ -1,0 +1,1358 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.8300, 40.7982]
+      },
+      "properties": {
+        "name": "宾夕法尼亚州立大学",
+        "englishName": "Pennsylvania State University",
+        "ranking": "2026 US NEWS排名第59名",
+        "description": "宾夕法尼亚州立大学是美国最大的公立大学之一，以其强大的工程学、商学和体育项目而闻名，拥有世界级的科研实力。",
+        "img": "../imgs/penn-state-logo.png",
+        "website": "https://www.psu.edu/",
+        "strengths": [
+          {
+            "field": "工程学",
+            "details": "工程学院排名全美前20，在石油工程和材料工程方面表现突出"
+          },
+          {
+            "field": "商科",
+            "details": "Smeal商学院在供应链管理和市场营销方面排名全美前20"
+          },
+          {
+            "field": "地球科学",
+            "details": "地球与矿物科学学院在气象学和地质学方面研究领先"
+          },
+          {
+            "field": "体育管理",
+            "details": "体育与休闲管理专业在全美排名前列，橄榄球项目闻名全美"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.1178, 40.9144]
+      },
+      "properties": {
+        "name": "纽约州立大学石溪分校",
+        "englishName": "Stony Brook University",
+        "ranking": "2026 US NEWS排名第59名",
+        "description": "纽约州立大学石溪分校是一所位于长岛的公立研究型大学，以其在科学和医学领域的卓越研究而闻名。",
+        "img": "../imgs/stony-brook-logo.png",
+        "website": "https://www.stonybrook.edu/",
+        "strengths": [
+          {
+            "field": "医学",
+            "details": "医学院在医学教育和研究方面表现突出，附属医院是长岛最大的医疗机构"
+          },
+          {
+            "field": "核物理",
+            "details": "拥有全美最著名的核物理实验室之一，在粒子物理研究方面世界领先"
+          },
+          {
+            "field": "计算机科学",
+            "details": "CS专业在人工智能和网络安全方面研究突出，发展迅速"
+          },
+          {
+            "field": "海洋科学",
+            "details": "海洋科学与政策学院在海洋生物学和环境科学方面表现优秀"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.1798, 44.9740]
+      },
+      "properties": {
+        "name": "明尼苏达大学双城分校",
+        "englishName": "University of Minnesota Twin Cities",
+        "ranking": "2026 US NEWS排名第59名",
+        "description": "明尼苏达大学双城分校是明尼苏达大学系统的旗舰校区，是美国最著名的公立研究型大学之一。",
+        "img": "../imgs/minnesota-logo.png",
+        "website": "https://twin-cities.umn.edu/",
+        "strengths": [
+          {
+            "field": "心理学",
+            "details": "心理学系排名全美前10，在临床心理学和认知科学方面研究领先"
+          },
+          {
+            "field": "统计学",
+            "details": "统计系在生物统计学和数据分析方面享有盛誉，与医学院合作紧密"
+          },
+          {
+            "field": "工程学",
+            "details": "工程学院排名全美前25，在化学工程和材料工程方面表现突出"
+          },
+          {
+            "field": "商科",
+            "details": "Carlson管理学院在管理学和创业方面排名全美前40"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4822, 42.7018]
+      },
+      "properties": {
+        "name": "密歇根州立大学",
+        "englishName": "Michigan State University",
+        "ranking": "2026 US NEWS排名第64名",
+        "description": "密歇根州立大学是美国最大的公立大学之一，以其在教育学、供应链管理和农业科学领域的卓越表现而闻名。",
+        "img": "../imgs/michigan-state-logo.png",
+        "website": "https://msu.edu/",
+        "strengths": [
+          {
+            "field": "供应链管理",
+            "details": "供应链管理专业排名全美第一，是该领域的全球领导者"
+          },
+          {
+            "field": "教育学",
+            "details": "教育学院排名全美前10，在教育政策和研究方面享有盛誉"
+          },
+          {
+            "field": "通信与新闻",
+            "details": "传播学院排名全美前15，在广告和公共关系方面表现突出"
+          },
+          {
+            "field": "医学预科",
+            "details": "医学预科项目在全美享有很高声誉，医学院录取率位居前列"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.9559, 40.4444]
+      },
+      "properties": {
+        "name": "匹兹堡大学",
+        "englishName": "University of Pittsburgh",
+        "ranking": "2026 US NEWS排名第69名",
+        "description": "匹兹堡大学是一所位于宾夕法尼亚州匹兹堡的公立研究型大学，以其强大的医学中心和研究实力而闻名。",
+        "img": "../imgs/pitt-logo.png",
+        "website": "https://www.pitt.edu/",
+        "strengths": [
+          {
+            "field": "医学",
+            "details": "医学院排名全美前20，UPMC医疗中心是全美最顶尖的医疗机构之一"
+          },
+          {
+            "field": "护理学",
+            "details": "护理学院排名全美前10，在护理教育和临床实践方面表现优秀"
+          },
+          {
+            "field": "哲学",
+            "details": "哲学系排名全美前5，拥有众多知名哲学家"
+          },
+          {
+            "field": "生物科学",
+            "details": "生物科学学院在神经科学和生物医学研究方面表现突出"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.8039, 36.1435]
+      },
+      "properties": {
+        "name": "范德堡大学",
+        "englishName": "Vanderbilt University",
+        "ranking": "2026 US NEWS排名第17名",
+        "description": "范德堡大学是一所研究型大学，以其优秀的学术声誉和美丽的校园而闻名。",
+        "img": "../imgs/vanderbilt-logo.png",
+        "website": "https://www.vanderbilt.edu/",
+        "strengths": [
+          {
+            "field": "医学预科",
+            "details": "医学预科项目全美顶尖，医学院录取率高达90%以上"
+          },
+          {
+            "field": "教育学",
+            "details": "Peabody教育学院排名全美前10，在教育政策和研究方面享有盛誉"
+          },
+          {
+            "field": "工程学",
+            "details": "工程学院在生物医学工程和计算机工程方面表现突出"
+          },
+          {
+            "field": "商科",
+            "details": "Owen管理学院在创业精神和校友网络方面表现优异"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.7383, 42.2784]
+      },
+      "properties": {
+        "name": "密歇根大学安娜堡分校",
+        "englishName": "University of Michigan-Ann Arbor",
+        "ranking": "2026 US NEWS排名第20名",
+        "description": "密歇根大学安娜堡分校是美国顶尖的研究型大学，被誉为'公立常春藤'之一，在工程、商科和医学等领域享有盛誉。",
+        "img": "../imgs/michigan-logo.jpg",
+        "website": "https://www.umich.edu/",
+        "strengths": [
+          {
+            "field": "工程学",
+            "details": "工程学院全美前5，在航空航天、汽车工程和计算机工程方面处于领先地位"
+          },
+          {
+            "field": "商科",
+            "details": "Ross商学院在全美商学院中排名前10，以行动学习著称"
+          },
+          {
+            "field": "医学",
+            "details": "医学院排名全美前10，医学研究实力强大"
+          },
+          {
+            "field": "计算机科学",
+            "details": "计算机科学专业排名全美前10，在人工智能和机器学习方面研究突出"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.0558, 35.9132]
+      },
+      "properties": {
+        "name": "北卡罗来纳大学教堂山分校",
+        "englishName": "University of North Carolina at Chapel Hill",
+        "ranking": "2026 US NEWS排名第30名",
+        "description": "北卡罗来纳大学教堂山分校是'公立常春藤'成员，在医学、法学和新闻学等领域表现卓越。",
+        "img": "../imgs/north-carolina-logo.jpeg",
+        "website": "https://www.unc.edu/",
+        "strengths": [
+          {
+            "field": "医学",
+            "details": "医学院排名全美前5，在基础医学和临床研究方面享有盛誉"
+          },
+          {
+            "field": "公共卫生",
+            "details": "Gillings公共卫生学院排名全美前5，在全球健康研究方面领先"
+          },
+          {
+            "field": "法学",
+            "details": "法学院排名全美前10，在宪法法和国际法方面表现突出"
+          },
+          {
+            "field": "新闻学",
+            "details": "新闻与大众传播学院排名全美前5，培养了众多知名记者"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9964, 40.7296]
+      },
+      "properties": {
+        "name": "纽约大学",
+        "englishName": "New York University",
+        "ranking": "2026 US NEWS排名第32名",
+        "description": "纽约大学是一所研究型大学，以其位于华盛顿广场的主校区和在全球的众多校区而闻名，在商科、艺术和法律等领域处于领先地位。",
+        "img": "../imgs/nyu-logo.png",
+        "website": "https://www.nyu.edu/",
+        "strengths": [
+          {
+            "field": "艺术",
+            "details": "Tisch艺术学院是全球最顶尖的艺术学院之一，在电影、表演艺术方面享有盛誉"
+          },
+          {
+            "field": "商科",
+            "details": "Stern商学院在金融和会计方面排名全美前列，位于纽约金融中心"
+          },
+          {
+            "field": "法学",
+            "details": "法学院在宪法法和国际法方面享有盛誉，地理位置优越"
+          },
+          {
+            "field": "哲学",
+            "details": "哲学系拥有众多知名哲学家，是分析哲学的重镇"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.2272, 40.1022]
+      },
+      "properties": {
+        "name": "伊利诺伊大学香槟分校",
+        "englishName": "University of Illinois at Urbana-Champaign",
+        "ranking": "2026 US NEWS排名第36名",
+        "description": "伊利诺伊大学香槟分校是'公立常春藤'成员，在工程、计算机科学和商业等领域拥有世界级的声誉，是美国最大的大学之一。",
+        "img": "../imgs/illinois-logo.png",
+        "website": "https://illinois.edu/",
+        "strengths": [
+          {
+            "field": "计算机科学",
+            "details": "CS专业排名全美前5，在人工智能、软件工程和计算机系统方面世界领先"
+          },
+          {
+            "field": "工程学",
+            "details": "工程学院排名全美前10，在电气工程和机械工程方面表现突出"
+          },
+          {
+            "field": "商科",
+            "details": "Gies商学院在会计和创业方面享有盛誉，是'公立常春藤'中的佼佼者"
+          },
+          {
+            "field": "农业科学",
+            "details": "农业和消费者经济学在全美排名第一，在可持续农业研究方面领先"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.4012, 43.0747]
+      },
+      "properties": {
+        "name": "威斯康星大学麦迪逊分校",
+        "englishName": "University of Wisconsin-Madison",
+        "ranking": "2026 US NEWS排名第36名",
+        "description": "威斯康星大学麦迪逊分校是'公立常春藤'成员，以其强大的研究实力和优秀的教育质量而闻名，尤其在社会科学、工程和生命科学领域表现突出。",
+        "img": "../imgs/wisconsin-logo.jpg",
+        "website": "https://www.wisc.edu/",
+        "strengths": [
+          {
+            "field": "心理学",
+            "details": "心理学系排名全美前5，在行为神经科学方面研究领先"
+          },
+          {
+            "field": "工程学",
+            "details": "工程学院在化学工程和土木工程方面排名全美前20"
+          },
+          {
+            "field": "统计学",
+            "details": "统计学系在推断统计学和生物统计学方面享有盛誉"
+          },
+          {
+            "field": "政治学",
+            "details": "政治学系排名全美前10，在美国政治和比较政治方面研究突出"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.0164, 40.0082]
+      },
+      "properties": {
+        "name": "俄亥俄州立大学",
+        "englishName": "The Ohio State University",
+        "ranking": "2026 US NEWS排名第41名",
+        "description": "俄亥俄州立大学是美国最大的大学之一，'公立常春藤'成员，在工程、商业、医学和人文社科等多个领域都有强大的实力。",
+        "img": "../imgs/ohio-state-logo.webp",
+        "website": "https://www.osu.edu/",
+        "strengths": [
+          {
+            "field": "商科",
+            "details": "Fisher商学院在供应链管理和市场营销方面排名全美前20"
+          },
+          {
+            "field": "工程学",
+            "details": "工程学院排名全美前15，在航空航天和汽车工程方面表现突出"
+          },
+          {
+            "field": "医学",
+            "details": "医学院和附属医院在医学教育和研究方面实力雄厚"
+          },
+          {
+            "field": "体育管理",
+            "details": "体育管理学院是全美第一个此类项目，在体育产业研究方面领先"
+          }
+        ]
+      }
+    },
+    {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-71.1054, 42.3503]
+    },
+    "properties": {
+      "name": "波士顿大学",
+      "englishName": "Boston University",
+      "ranking": "2026 US NEWS排名第42名",
+      "description": "波士顿大学是一所研究型大学，在商科、传播、国际关系和医学等领域享有很高声誉，校园横跨查尔斯河。",
+      "img": "../imgs/boston-logo.png",
+      "website": "https://www.bu.edu/",
+      "strengths": [
+        {
+          "field": "商科",
+          "details": "Questrom商学院在金融、会计和市场营销方面排名全美前30，位于波士顿商业中心"
+        },
+        {
+          "field": "传播学",
+          "details": "传播学院排名全美前10，在广告、公共关系和新闻方面表现突出"
+        },
+        {
+          "field": "医学",
+          "details": "医学院在医学教育和生物医学研究方面享有盛誉"
+        },
+        {
+          "field": "工程学",
+          "details": "工程学院在生物医学工程和电气工程方面表现优秀"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-71.0927, 42.3398]
+    },
+    "properties": {
+      "name": "东北大学",
+      "englishName": "Northeastern University",
+      "ranking": "2026 US NEWS排名第46名",
+      "description": "东北大学是一所位于波士顿的私立研究型大学，以其合作教育项目（Co-op）而闻名，为学生提供丰富的实习和工作经验。",
+      "img": "../imgs/NU-logo.png",
+      "website": "https://www.northeastern.edu/",
+      "strengths": [
+        {
+          "field": "合作教育",
+          "details": "Co-op项目全美第一，学生在毕业前可获得1-2年实习经验"
+        },
+        {
+          "field": "计算机科学",
+          "details": "CS专业排名全美前20，在网络安全和数据科学方面表现突出"
+        },
+        {
+          "field": "工程学",
+          "details": "工程学院在机械工程和土木工程方面表现优秀"
+        },
+        {
+          "field": "商业分析",
+          "details": "D'Amore-McKim商学院在商业分析和创业方面享有盛誉"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-118.2868, 34.0194]
+    },
+    "properties": {
+        "name": "南加州大学",
+        "englishName": "University of Southern California",
+        "ranking": "2026 US NEWS排名第28名",
+        "description": "南加州大学是一所位于洛杉矶的私立研究型大学，以其电影学院、商学院和工程学院而闻名。",
+        "img": "../imgs/USC-logo.png",
+        "website": "https://www.usc.edu/",
+        "strengths": [
+          {
+            "field": "电影艺术",
+            "details": "电影艺术学院是全球最顶尖的电影学院之一，培养了众多奥斯卡获奖者，被誉为'好莱坞的摇篮'"
+          },
+          {
+            "field": "商科",
+            "details": "Marshall商学院在创业精神和体育商业方面排名全美前10，与好莱坞和硅谷联系紧密"
+          },
+          {
+            "field": "计算机科学",
+            "details": "Viterbi工程学院在人工智能、游戏设计和软件工程方面处于领先地位"
+          },
+          {
+            "field": "传播学",
+            "details": "Annenberg传播学院在新闻和数字媒体方面排名全美前5"
+          }
+        ],
+        "colleges": [
+          {
+            "id": 1,
+            "name": "School of Cinematic Arts",
+            "chineseName": "电影艺术学院",
+            "description": "南加州大学电影艺术学院是全球最顶尖的电影学院之一，培养了众多奥斯卡获奖者。",
+            "notes": "被誉为'好莱坞的摇篮'，校友包括史蒂文·斯皮尔伯格、乔治·卢卡斯等",
+            "popularMajors": ["Film Production", "Screenwriting", "Cinema and Media Studies", "Interactive Media & Games"]
+          },
+          {
+            "id": 2,
+            "name": "Marshall School of Business",
+            "chineseName": "马歇尔商学院",
+            "description": "马歇尔商学院是全美顶尖商学院之一，以其企业家精神和全球化视野著称。",
+            "notes": "US News排名前20的商学院，与洛杉矶商业社区联系紧密",
+            "popularMajors": ["Business Administration", "Accounting", "Finance", "Marketing"]
+          },
+          {
+            "id": 3,
+            "name": "Viterbi School of Engineering",
+            "chineseName": "维特比工程学院",
+            "description": "维特比工程学院是全美顶尖工程学院之一，在计算机科学、人工智能等领域处于领先地位。",
+            "notes": "拥有多个国家级研究中心，与科技行业合作紧密",
+            "popularMajors": ["Computer Science", "Electrical Engineering", "Mechanical Engineering", "Aerospace Engineering"]
+          },
+          {
+            "id": 4,
+            "name": "Annenberg School for Communication and Journalism",
+            "chineseName": "安纳伯格传播与新闻学院",
+            "description": "安纳伯格传播与新闻学院是全球顶尖的传播学院，涵盖新闻、公共关系、数字媒体等领域。",
+            "notes": "US News传播专业排名第一，拥有先进的媒体设施",
+            "popularMajors": ["Journalism", "Public Relations", "Communication", "Digital Social Media"]
+          },
+          {
+            "id": 5,
+            "name": "Dornsife College of Letters, Arts and Sciences",
+            "chineseName": "多恩西夫文理学院",
+            "description": "多恩西夫文理学院是南加州大学最大的学院，涵盖人文、社会科学、自然科学等广泛领域。",
+            "notes": "提供跨学科课程，强调批判性思维和全球视野",
+            "popularMajors": ["Psychology", "Economics", "Biology", "Political Science"]
+          },
+          {
+            "id": 6,
+            "name": "School of Dramatic Arts",
+            "chineseName": "戏剧学院",
+            "description": "南加州大学戏剧学院培养了众多知名演员和导演，在戏剧、音乐剧等领域享有盛誉。",
+            "notes": "与好莱坞和百老汇有密切合作关系",
+            "popularMajors": ["Acting", "Theatre", "Musical Theatre", "Dramatic Writing"]
+          },
+          {
+            "id": 7,
+            "name": "School of Architecture",
+            "chineseName": "建筑学院",
+            "description": "南加州大学建筑学院以其创新的设计理念和跨学科方法著称。",
+            "notes": "位于洛杉矶，受益于城市的建筑实践和文化氛围",
+            "popularMajors": ["Architecture", "Landscape Architecture", "Urban Design"]
+          },
+          {
+            "id": 8,
+            "name": "Thornton School of Music",
+            "chineseName": "桑顿音乐学院",
+            "description": "桑顿音乐学院是全美顶尖音乐学院之一，涵盖古典音乐、爵士乐、流行音乐等领域。",
+            "notes": "与洛杉矶音乐产业联系紧密，校友包括多位格莱美获奖者",
+            "popularMajors": ["Music Performance", "Music Composition", "Music Industry", "Jazz Studies"]
+          }
+        ]
+      }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.4428, 40.5029]
+    },
+    "properties": {
+        "name": "罗格斯大学",
+        "englishName": "Rutgers University",
+        "ranking": "2026 US NEWS排名第42名",
+        "description": "罗格斯大学是新泽西州立大学，是美国最早成立的高等教育机构之一，在计算机科学、工程和生命科学领域享有盛誉。",
+        "img": "../imgs/Rutgers-logo.png",
+        "website": "https://www.rutgers.edu/",
+        "strengths": [
+          {
+            "field": "计算机科学",
+            "details": "CS专业在人工智能和数据库系统方面研究突出，位于硅谷附近"
+          },
+          {
+            "field": "护理学",
+            "details": "护理学院排名全美前20，在护理教育和研究方面表现优秀"
+          },
+          {
+            "field": "药学",
+            "details": "药学院排名全美前10，在药物研发和临床药学方面领先"
+          },
+          {
+            "field": "工程学",
+            "details": "工程学院在生物医学工程和材料科学方面表现突出"
+          }
+        ]
+      }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-77.6214, 43.1347]
+    },
+    "properties": {
+      "name": "罗切斯特大学",
+      "englishName": "University of Rochester",
+      "ranking": "2026 US NEWS排名第69名",
+      "description": "罗切斯特大学是一所位于纽约州的私立研究型大学，以其音乐学院、光学研究所和医学中心而闻名。",
+      "img": "../imgs/RU-logo.png",
+      "website": "https://www.rochester.edu/",
+      "strengths": [
+        {
+          "field": "光学",
+          "details": "光学研究所（Center for Optics）是全球光学研究的中心，拥有最先进的光学实验室"
+        },
+        {
+          "field": "音乐",
+          "details": "Eastman音乐学院是全美最顶尖的音乐学院之一，在古典音乐和爵士乐方面享有盛誉"
+        },
+        {
+          "field": "医学",
+          "details": "医学中心在医学教育和生物医学研究方面表现优秀"
+        },
+        {
+          "field": "商科",
+          "details": "Simon商学院在金融和商业分析方面排名全美前30"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-76.4801, 42.4529]
+    },
+    "properties": {
+      "name": "康奈尔大学",
+      "englishName": "Cornell University",
+      "ranking": "2026 US NEWS排名第13名",
+      "description": "康奈尔大学是一所位于纽约州伊萨卡的常春藤盟校，是八所常春藤盟校中唯一一所私立兼赠地大学。",
+      "img": "../imgs/Cornell-logo.png",
+      "website": "https://www.cornell.edu/",
+      "strengths": [
+        {
+          "field": "酒店管理",
+          "details": "酒店管理学院排名全美第一，在酒店业享有盛誉"
+        },
+        {
+          "field": "农业科学",
+          "details": "农业与生命科学学院排名全美前5，在可持续农业研究方面领先"
+        },
+        {
+          "field": "工程学",
+            "details": "工程学院是常春藤盟校中规模最大的，在计算机科学和生物医学工程方面表现突出"
+        },
+        {
+          "field": "建筑",
+          "details": "建筑艺术规划学院在建筑设计和城市规划方面享有盛誉"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-71.4040, 41.8262]
+    },
+    "properties": {
+      "name": "布朗大学",
+      "englishName": "Brown University",
+      "ranking": "2026 US NEWS排名第13名",
+      "description": "布朗大学是一所位于罗德岛州普罗维登斯的常春藤盟校，以其开放的课程体系和自由的学术氛围而闻名。",
+      "img": "../imgs/Brown-logo.png",
+      "website": "https://www.brown.edu/",
+      "strengths": [
+        {
+          "field": "开放式课程",
+          "details": "美国第一所不要求学生必修特定课程的大学，学生可以自由探索兴趣"
+        },
+        {
+          "field": "计算机科学",
+          "details": "CS专业在人工智能和人机交互方面研究突出，发展迅速"
+        },
+        {
+          "field": "医学",
+          "details": "Alpert医学院在医学教育和生物医学研究方面表现优秀"
+        },
+        {
+          "field": "应用数学",
+          "details": "应用数学系在金融数学和数据科学方面享有盛誉"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9632, 40.8075]
+    },
+    "properties": {
+      "name": "哥伦比亚大学",
+      "englishName": "Columbia University",
+      "ranking": "2026 US NEWS排名第15名",
+      "description": "哥伦比亚大学是一所位于纽约市曼哈顿的常春藤盟校，是美国最古老的高等教育机构之一。",
+      "img": "../imgs/Columbia-logo.png",
+      "website": "https://www.columbia.edu/",
+      "strengths": [
+        {
+          "field": "法学",
+          "details": "法学院排名全美前5，在宪法法和国际法方面享有盛誉"
+        },
+        {
+          "field": "医学",
+          "details": "Vagelos医学与外科学院排名全美前10，在医学研究方面领先"
+        },
+        {
+          "field": "新闻学",
+          "details": "Journalism学院被认为是全球最顶尖的新闻学院"
+        },
+        {
+          "field": "国际关系",
+          "details": "SIPA国际与公共事务学院在公共政策和国际事务方面处于领先地位"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.2684, 41.8036]
+    },
+    "properties": {
+      "name": "康涅狄格大学",
+      "englishName": "University of Connecticut",
+      "ranking": "2026 US NEWS排名第69名",
+      "description": "康涅狄格大学是康涅狄格州的旗舰公立研究型大学，以其优秀的工程、商科和农业科学项目而闻名。",
+      "img": "../imgs/connecticut-logo.png",
+      "website": "https://uconn.edu/",
+      "strengths": [
+        {
+          "field": "工程学",
+          "details": "工程学院在生物医学工程和材料科学方面表现突出"
+        },
+        {
+          "field": "商科",
+          "details": "School of Business在会计和金融方面排名全美前30"
+        },
+        {
+          "field": "农业科学",
+          "details": "农业、健康和自然资源学院在可持续农业和环境保护方面领先"
+        },
+        {
+          "field": "护理学",
+          "details": "护理学院在护理教育和临床实践方面表现优秀"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-90.2000, 38.6270]
+    },
+    "properties": {
+      "name": "圣路易斯华盛顿大学",
+      "englishName": "Washington University in St. Louis",
+      "ranking": "2026 US NEWS排名第20名",
+      "description": "圣路易斯华盛顿大学是一所私立研究型大学，以其强大的研究实力和优秀的教学质量而闻名，在医学、工程、艺术与科学等领域享有盛誉。",
+      "img": "../imgs/WashU-logo.png",
+      "website": "https://wustl.edu/",
+      "strengths": [
+        {
+          "field": "医学",
+          "details": "医学院排名全美前10，在医学研究和临床实践方面处于领先地位"
+        },
+        {
+          "field": "商科",
+          "details": "Olin商学院在创业和金融方面排名全美前20"
+        },
+        {
+          "field": "建筑",
+          "details": "建筑学院在建筑设计和城市设计方面享有盛誉"
+        },
+        {
+          "field": "法学",
+          "details": "法学院在法学研究和国际法方面表现突出"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.6692, 40.3432]
+    },
+    "properties": {
+      "name": "普林斯顿大学",
+      "englishName": "Princeton University",
+      "ranking": "2026 US NEWS排名第1名",
+      "description": "普林斯顿大学是美国历史最悠久的大学之一，以其卓越的学术声誉和美丽的校园而闻名。学校在数学、物理、哲学、经济学等领域处于世界领先地位。",
+      "img": "../imgs/princeton-logo.png",
+      "website": "https://www.princeton.edu/",
+      "strengths": [
+        {
+          "field": "数学",
+          "details": "数学系排名全美第一，拥有众多菲尔兹奖获得者"
+        },
+        {
+          "field": "物理学",
+          "details": "物理系在理论物理和凝聚态物理方面处于世界领先地位"
+        },
+        {
+          "field": "经济学",
+          "details": "经济系排名全美前三，培养了多位诺贝尔经济学奖得主"
+        },
+        {
+          "field": "哲学",
+          "details": "哲学系在分析哲学领域享有盛誉"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-71.0937, 42.3601]
+    },
+    "properties": {
+      "name": "麻省理工学院",
+      "englishName": "Massachusetts Institute of Technology",
+      "ranking": "2026 US NEWS排名第2名",
+      "description": "麻省理工学院是世界顶尖的理工学院，在科学、技术、工程和数学领域享有无与伦比的声誉。MIT的校友和教授中诞生了众多诺贝尔奖、图灵奖获得者。",
+      "img": "../imgs/mit-logo.png",
+      "website": "https://www.mit.edu/",
+      "strengths": [
+        {
+          "field": "工程学",
+          "details": "工程学院排名全美第一，在航空航天、电子工程等领域领先"
+        },
+        {
+          "field": "计算机科学",
+          "details": "计算机科学与人工智能实验室(CSAIL)是世界顶尖的计算机研究中心"
+        },
+        {
+          "field": "物理学",
+          "details": "物理系拥有多位诺贝尔奖获得者，在量子计算方面处于前沿"
+        },
+        {
+          "field": "经济学",
+          "details": "经济系在计量经济学和博弈论方面排名全美前三"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-71.1086, 42.3744]
+    },
+    "properties": {
+      "name": "哈佛大学",
+      "englishName": "Harvard University",
+      "ranking": "2026 US NEWS排名第4名",
+      "description": "哈佛大学是美国最古老的大学，也是世界最负盛名的高等学府之一。学校在几乎所有学科领域都处于领先地位，尤其在法律、医学、商学和公共政策方面享有盛誉。",
+      "img": "../imgs/harvard-logo.png",
+      "website": "https://www.harvard.edu/",
+      "strengths": [
+        {
+          "field": "法学",
+          "details": "法学院排名全美第一，是美国法律教育的领导者"
+        },
+        {
+          "field": "医学",
+          "details": "医学院排名全美前三，在医学研究方面处于世界领先地位"
+        },
+        {
+          "field": "商学",
+          "details": "哈佛商学院(HBS)是世界最顶尖的商学院之一"
+        },
+        {
+          "field": "公共政策",
+          "details": "肯尼迪政府学院在公共政策研究方面排名全美第一"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.1734, 37.4220]
+    },
+    "properties": {
+      "name": "斯坦福大学",
+      "englishName": "Stanford University",
+      "ranking": "2026 US NEWS排名第4名",
+      "description": "斯坦福大学位于硅谷中心，与科技产业紧密相连。学校在计算机科学、工程学和商学方面尤为出色，培养了众多科技界领袖和创业家。",
+      "img": "../imgs/stanford-logo.png",
+      "website": "https://www.stanford.edu/",
+      "strengths": [
+        {
+          "field": "计算机科学",
+          "details": "计算机科学排名全美第一，与硅谷紧密合作"
+        },
+        {
+          "field": "工程学",
+          "details": "工程学院在人工智能、生物工程等领域领先"
+        },
+        {
+          "field": "商学",
+          "details": "商学院在创业和创新方面排名全美第一"
+        },
+        {
+          "field": "医学",
+          "details": "医学院在生物医学研究方面处于世界前沿"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-87.6237, 41.7925]
+    },
+    "properties": {
+      "name": "芝加哥大学",
+      "englishName": "University of Chicago",
+      "ranking": "2026 US NEWS排名第6名",
+      "description": "芝加哥大学以其严谨的学术氛围和卓越的研究实力而闻名，尤其在经济学、社会学、物理学和法学方面处于世界领先地位。学校拥有众多诺贝尔奖获得者。",
+      "img": "../imgs/uchicago-logo.png",
+      "website": "https://www.uchicago.edu/",
+      "strengths": [
+        {
+          "field": "经济学",
+          "details": "芝加哥学派在经济学领域影响深远，拥有多位诺贝尔经济学奖得主"
+        },
+        {
+          "field": "物理学",
+          "details": "物理系在粒子物理和天体物理方面处于领先地位"
+        },
+        {
+          "field": "法学",
+          "details": "法学院排名全美前五，在法律理论方面享有盛誉"
+        },
+        {
+          "field": "社会学",
+          "details": "社会学系是芝加哥学派的发源地，在社会科学研究方面领先"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-75.1926, 39.9523]
+    },
+    "properties": {
+      "name": "宾夕法尼亚大学",
+      "englishName": "University of Pennsylvania",
+      "ranking": "2026 US NEWS排名第6名",
+      "description": "宾夕法尼亚大学是美国常春藤盟校之一，拥有优秀的商学院、法学院和医学院。沃顿商学院是世界最顶尖的商学院之一。",
+      "img": "../imgs/upenn-logo.png",
+      "website": "https://www.upenn.edu/",
+      "strengths": [
+        {
+          "field": "商学",
+          "details": "沃顿商学院排名全美第一，在金融和创业方面领先"
+        },
+        {
+          "field": "法学",
+          "details": "法学院排名全美前10，在国际法和商法方面突出"
+        },
+        {
+          "field": "医学",
+          "details": "医学院排名全美前五，在生物医学研究方面领先"
+        },
+        {
+          "field": "工程学",
+          "details": "工程学院在计算机科学和生物工程方面表现优秀"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-118.1243, 34.1367]
+    },
+    "properties": {
+      "name": "加州理工学院",
+      "englishName": "California Institute of Technology",
+      "ranking": "2026 US NEWS排名第11名",
+      "description": "加州理工学院是一所专注于科学和工程的顶尖研究型大学，以其卓越的科研实力和高师生比而闻名。学校在物理学、化学和天文学方面处于世界领先地位。",
+      "img": "../imgs/caltech-logo.png",
+      "website": "https://www.caltech.edu/",
+      "strengths": [
+        {
+          "field": "物理学",
+          "details": "物理系排名全美第一，拥有多个诺贝尔奖获得者"
+        },
+        {
+          "field": "化学",
+          "details": "化学系在化学研究方面处于世界领先地位"
+        },
+        {
+          "field": "天文学",
+          "details": "拥有世界顶尖的天文台和空间科学研究中心"
+        },
+        {
+          "field": "工程学",
+          "details": "工程学院在航空航天和计算机科学方面领先"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-78.8986, 35.9940]
+    },
+    "properties": {
+      "name": "杜克大学",
+      "englishName": "Duke University",
+      "ranking": "2026 US NEWS排名第7名",
+      "description": "杜克大学是美国顶尖的私立研究型大学，以其优秀的学术声誉和美丽的哥特式校园而闻名。学校在医学、工程和商学方面表现出色。",
+      "img": "../imgs/duke-logo.png",
+      "website": "https://www.duke.edu/",
+      "strengths": [
+        {
+          "field": "医学",
+          "details": "医学院排名全美前10，在医学研究方面处于领先地位"
+        },
+        {
+          "field": "商学",
+          "details": "Fuqua商学院在管理教育方面排名全美前10"
+        },
+        {
+          "field": "工程学",
+          "details": "工程学院在生物医学工程和环境工程方面领先"
+        },
+        {
+          "field": "公共政策",
+          "details": "公共政策学院在公共事务研究方面排名全美前10"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-76.6122, 39.3292]
+    },
+    "properties": {
+      "name": "约翰霍普金斯大学",
+      "englishName": "Johns Hopkins University",
+      "ranking": "2026 US NEWS排名第7名",
+      "description": "约翰霍普金斯大学以其卓越的医学院和公共卫生学院而闻名，是美国第一所研究型大学。学校在医学研究和国际事务方面处于世界领先地位。",
+      "img": "../imgs/jhu-logo.png",
+      "website": "https://www.jhu.edu/",
+      "strengths": [
+        {
+          "field": "医学",
+          "details": "医学院排名全美第一，在医学研究方面处于世界领先地位"
+        },
+        {
+          "field": "公共卫生",
+          "details": "布隆伯格公共卫生学院排名全美第一"
+        },
+        {
+          "field": "工程学",
+          "details": "工程学院在生物医学工程方面排名全美第一"
+        },
+        {
+          "field": "国际事务",
+          "details": "高级国际研究学院(SAIS)在国际关系方面排名全美前三"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.2848, 43.7032]
+    },
+    "properties": {
+      "name": "达特茅斯学院",
+      "englishName": "Dartmouth College",
+      "ranking": "2026 US NEWS排名第13名",
+      "description": "达特茅斯学院是常春藤盟校中规模最小但最具特色的一所，以其紧密的师生关系和优秀的本科教育而闻名。学校在工程、商业和文科方面表现出色。",
+      "img": "../imgs/dartmouth-logo.png",
+      "website": "https://www.dartmouth.edu/",
+      "strengths": [
+        {
+          "field": "工程学",
+          "details": "工程学院在工程设计和创新方面表现优秀"
+        },
+        {
+          "field": "商业",
+          "details": "Tuck商学院是世界顶尖的商学院之一"
+        },
+        {
+          "field": "文科",
+          "details": "在文学、历史和哲学等领域享有盛誉"
+        },
+        {
+          "field": "环境研究",
+          "details": "在环境科学和可持续发展方面领先"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-87.6753, 42.0565]
+    },
+    "properties": {
+      "name": "西北大学",
+      "englishName": "Northwestern University",
+      "ranking": "2026 US NEWS排名第7名",
+      "description": "西北大学位于芝加哥附近，是一所顶尖的私立研究型大学。学校在新闻传播、戏剧、商学和工程方面享有盛誉，拥有优秀的医学院和法学院。",
+      "img": "../imgs/northwestern-logo.png",
+      "website": "https://www.northwestern.edu/",
+      "strengths": [
+        {
+          "field": "新闻传播",
+          "details": "Medill新闻学院排名全美第一"
+        },
+        {
+          "field": "戏剧",
+          "details": "戏剧学院在表演艺术方面排名全美前三"
+        },
+        {
+          "field": "商学",
+          "details": "Kellogg商学院在管理学方面排名全美前三"
+        },
+        {
+          "field": "法学",
+          "details": "法学院排名全美前10，在知识产权法方面领先"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-86.2371, 41.6939]
+    },
+    "properties": {
+      "name": "圣母大学",
+      "englishName": "University of Notre Dame",
+      "ranking": "2026 US NEWS排名第20名",
+      "description": "圣母大学是一所天主教大学，以其优秀的学术声誉和强烈的社区精神而闻名。学校在工程、商学和建筑学方面表现出色。",
+      "img": "../imgs/notre-dame-logo.png",
+      "website": "https://www.nd.edu/",
+      "strengths": [
+        {
+          "field": "工程学",
+          "details": "工程学院在航空航天和土木工程方面排名全美前20"
+        },
+        {
+          "field": "商学",
+          "details": "商学院在管理学和创业方面排名全美前20"
+        },
+        {
+          "field": "建筑学",
+          "details": "建筑学院在建筑设计方面享有盛誉"
+        },
+        {
+          "field": "政治学",
+          "details": "在政治学和国际事务方面排名全美前20"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-77.0722, 38.9072]
+    },
+    "properties": {
+      "name": "乔治城大学",
+      "englishName": "Georgetown University",
+      "ranking": "2026 US NEWS排名第24名",
+      "description": "乔治城大学位于华盛顿特区，是美国顶尖的天主教大学之一。学校在国际关系、法学和公共政策方面享有盛誉，与政府和国际组织联系紧密。",
+      "img": "../imgs/georgetown-logo.png",
+      "website": "https://www.georgetown.edu/",
+      "strengths": [
+        {
+          "field": "国际事务",
+          "details": "沃尔什外交学院在国际关系方面排名全美第一"
+        },
+        {
+          "field": "法学",
+          "details": "法学院排名全美前15，在国际法方面领先"
+        },
+        {
+          "field": "公共政策",
+          "details": "公共政策学院在公共事务研究方面排名全美前10"
+        },
+        {
+          "field": "商学",
+          "details": "商学院在国际商务方面排名全美前10"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-78.4964, 38.0335]
+    },
+    "properties": {
+      "name": "弗吉尼亚大学",
+      "englishName": "University of Virginia",
+      "ranking": "2026 US NEWS排名第26名",
+      "description": "弗吉尼亚大学是美国顶尖的公立大学之一，由托马斯·杰斐逊创立。学校在法学、商学和工程方面表现出色，拥有美丽的校园和优秀的本科教育。",
+      "img": "../imgs/uvirginia-logo.png",
+      "website": "https://www.virginia.edu/",
+      "strengths": [
+        {
+          "field": "法学",
+          "details": "法学院排名全美前10，在宪法和国际法方面领先"
+        },
+        {
+          "field": "商学",
+          "details": "达顿商学院在MBA教育方面排名全美前10"
+        },
+        {
+          "field": "工程学",
+          "details": "工程学院在计算机科学和电气工程方面排名全美前30"
+        },
+        {
+          "field": "文科",
+          "details": "在文学、历史和哲学等领域享有盛誉"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-82.3272, 29.6450]
+    },
+    "properties": {
+      "name": "佛罗里达大学",
+      "englishName": "University of Florida",
+      "ranking": "2026 US NEWS排名第30名",
+      "description": "佛罗里达大学是美国顶尖的公立大学之一，以其优秀的学术声誉和丰富的校园生活而闻名。学校在工程、商学和农业方面表现出色。",
+      "img": "../imgs/uflorida-logo.png",
+      "website": "https://www.ufl.edu/",
+      "strengths": [
+        {
+          "field": "工程学",
+          "details": "工程学院在计算机科学和电气工程方面排名全美前30"
+        },
+        {
+          "field": "商学",
+          "details": "商学院在金融和市场营销方面排名全美前30"
+        },
+        {
+          "field": "农业科学",
+          "details": "农业与生命科学学院排名全美前五"
+        },
+        {
+          "field": "医学",
+          "details": "医学院在医学研究方面排名全美前20"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-76.1474, 43.0481]
+    },
+    "properties": {
+      "name": "雪城大学",
+      "englishName": "Syracuse University",
+      "ranking": "2026 US NEWS排名第75名",
+      "description": "雪城大学是一所位于纽约州雪城的著名私立研究型大学，以其在公共事务、传播学和信息研究领域的卓越表现而闻名。学校位于纽约州中部的\"雪城\"地区，校园环境优美，学术氛围浓厚。",
+      "img": "../imgs/syracuse-logo.png",
+      "website": "https://www.syracuse.edu/",
+      "strengths": [
+        {
+          "field": "公共事务",
+          "details": "马克斯韦尔公民与公共事务学院排名全美第一，是美国公共事务教育的领导者"
+        },
+        {
+          "field": "传播学",
+          "details": "Newhouse传播学院在新闻学、广告学和媒体研究方面排名全美前10"
+        },
+        {
+          "field": "信息研究",
+          "details": "信息研究学院在图书馆与信息科学方面排名全美前5"
+        },
+        {
+          "field": "建筑学",
+          "details": "建筑学院在建筑设计和城市规划方面享有盛誉"
+        }
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-78.7889, 43.0017]
+    },
+    "properties": {
+      "name": "纽约州立大学布法罗分校",
+      "englishName": "University at Buffalo",
+      "ranking": "2026 US NEWS排名第75名",
+      "description": "纽约州立大学布法罗分校是纽约州立大学系统的旗舰校区，是美国最大的公立研究型大学之一。学校位于纽约州第二大城市布法罗，在工程、医学和商学方面表现突出。",
+      "img": "../imgs/buffalo-logo.png",
+      "website": "https://www.buffalo.edu/",
+      "strengths": [
+        {
+          "field": "工程学",
+          "details": "工程学院在计算机工程和生物医学工程方面排名全美前50"
+        },
+        {
+          "field": "医学",
+          "details": "医学院在医学教育和研究方面表现突出，附属医院是纽约州西部最大的医疗中心"
+        },
+        {
+          "field": "药学",
+          "details": "药学院在药学研究和药物开发方面排名全美前30"
+        },
+        {
+          "field": "商学",
+          "details": "School of Management在金融和会计方面排名全美前100"
+        }
+      ]
+    }
+  }
+]
+}
