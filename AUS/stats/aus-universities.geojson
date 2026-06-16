@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.9631, -37.8136]
+      },
+      "properties": {
+        "name": "墨尔本大学",
+        "img": "/imgs/default_logo.png",
+        "ranking": "世界第19位",
+        "popularMajors": "商科、工程、医学、教育学",
+        "tuition": "约45,000-55,000澳元/年",
+        "website": "https://www.unimelb.edu.au/",
+        "收录专业数": "155专业"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.9170, -33.7792]
+      },
+      "properties": {
+        "name": "新南威尔士大学",
+        "img": "/imgs/default_logo.png",
+        "ranking": "世界第20位",
+        "popularMajors": "工程、计算机科学、商科、建筑",
+        "tuition": "约45,000-55,000澳元/年",
+        "website": "https://www.unsw.edu.au/",
+        "收录专业数": "122专业"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.1863, -33.8816]
+      },
+      "properties": {
+        "name": "悉尼大学",
+        "img": "/imgs/default_logo.png",
+        "ranking": "世界第25位",
+        "popularMajors": "医学、法律、工程、商科",
+        "tuition": "约45,000-55,000澳元/年",
+        "website": "https://www.sydney.edu.au/",
+        "收录专业数": "140专业"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.1281, -35.2820]
+      },
+      "properties": {
+        "name": "澳大利亚国立大学",
+        "img": "/imgs/default_logo.png",
+        "ranking": "世界第32位",
+        "popularMajors": "国际关系、经济学、计算机科学、生物学",
+        "tuition": "约40,000-50,000澳元/年",
+        "website": "https://www.anu.edu.au/",
+        "收录专业数": "109专业"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.0560, -37.9174]
+      },
+      "properties": {
+        "name": "莫纳什大学",
+        "img": "/imgs/default_logo.png",
+        "ranking": "世界第36位",
+        "popularMajors": "工程、商科、医学、药剂学",
+        "tuition": "约42,000-52,000澳元/年",
+        "website": "https://www.monash.edu/",
+        "收录专业数": "117专业"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.0137, -27.4911]
+      },
+      "properties": {
+        "name": "昆士兰大学",
+        "img": "/imgs/default_logo.png",
+        "ranking": "世界第42位",
+        "popularMajors": "医学、工程、环境科学、商科",
+        "tuition": "约42,000-52,000澳元/年",
+        "website": "https://www.uq.edu.au/",
+        "收录专业数": "124专业"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.8335, -31.9505]
+      },
+      "properties": {
+        "name": "西澳大学",
+        "img": "/imgs/default_logo.png",
+        "ranking": "世界第77位",
+        "popularMajors": "医学、工程、石油工程、海洋科学",
+        "tuition": "约40,000-50,000澳元/年",
+        "website": "https://www.uwa.edu.au/",
+        "收录专业数": "66专业"
+      }
+    }
+  ]
+}
