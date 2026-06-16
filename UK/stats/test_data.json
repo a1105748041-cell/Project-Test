@@ -1,0 +1,10 @@
+{
+  "6-10": [
+    {
+      "学校名称": "圣安德鲁斯University of St Andrews",
+      "排名": 2.0,
+      "html_template": "<div class=\"test\">测试模板</div>",
+      "visualization_template": "<div class=\"test-visual\">测试可视化模板</div>"
+    }
+  ]
+}

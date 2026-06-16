@@ -1,0 +1,32 @@
+[
+  {
+    "school": "商学院",
+    "application": 2900,
+    "offer_rate": 35.2,
+    "acceptance_rate": 6.6
+  },
+  {
+    "school": "社会与政治科学学院",
+    "application": 2350,
+    "offer_rate": 42.1,
+    "acceptance_rate": 8.9
+  },
+  {
+    "school": "爱丁堡艺术学院",
+    "application": 1960,
+    "offer_rate": 43.5,
+    "acceptance_rate": 7.6
+  },
+  {
+    "school": "心理学与语言科学学院",
+    "application": 1780,
+    "offer_rate": 41.8,
+    "acceptance_rate": 9.5
+  },
+  {
+    "school": "法学院",
+    "application": 1540,
+    "offer_rate": 39.2,
+    "acceptance_rate": 8.3
+  }
+]

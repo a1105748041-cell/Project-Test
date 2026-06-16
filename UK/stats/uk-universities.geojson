@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.817,
+          56.341
+        ]
+      },
+      "properties": {
+        "name": "圣安德鲁斯大学",
+        "applications": "18,520",
+        "admissions": "1,910",
+        "ranking": "2026 Times 第2名，QS 第113名",
+        "website": "https://www.st-andrews.ac.uk/",
+        "img": "imgs/SA_logo.jpeg",
+        "tuition": "本科: £35,260/年（2025-26学年国际生）",
+        "popularMajors": "历史学、哲学、物理学、国际政治、经济学",
+        "location": "苏格兰，非伦敦",
+        "livingCost": "学校估算约 £15,000-£16,000/年",
+        "totalBudget": "约 £50,000-£52,000/年",
+        "majorDetails": "<tr><td>MA History</td><td>AAB</td><td>70+</td><td>-</td></tr><tr><td>MA Philosophy</td><td>AAB</td><td>70+</td><td>-</td></tr><tr><td>BSc Physics</td><td>A*AA</td><td>100+</td><td>数学A</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.233,
+          53.466
+        ]
+      },
+      "properties": {
+        "name": "曼彻斯特大学",
+        "applications": "92,500",
+        "admissions": "9,985",
+        "ranking": "2026 Times 第27名，QS 第35名",
+        "website": "https://www.manchester.ac.uk/",
+        "img": "imgs/UoM_logo.jpeg",
+        "tuition": "本科: £33,100/年（2026/27入学部分课程）",
+        "popularMajors": "计算机科学、工程学、商学、医学、教育学",
+        "location": "曼彻斯特（非伦敦大城市）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £43,000-£46,000/年",
+        "majorDetails": "<tr><td>BSc Psychology</td><td>A*AA including one or more of: Psychology, Biology, Human Biology, Chemistry, Physics, Statistics, Mathematics, Further Maths, Applied Science</td><td>100+</td><td>-</td></tr><tr><td>BSc Educational Psychology</td><td>AAB</td><td>90+</td><td>-</td></tr><tr><td>BSc Computer Science</td><td>A*AA</td><td>100+</td><td>数学A*</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1338,
+          51.5224
+        ]
+      },
+      "properties": {
+        "name": "伦敦大学学院(UCL)",
+        "applications": "77,800+",
+        "admissions": "7,680+",
+        "ranking": "2026 Times 第9名，QS 第9名",
+        "website": "https://www.ucl.ac.uk/",
+        "img": "imgs/UCL_logo.png",
+        "tuition": "本科: £37,500/年起（2024-25入学国际生）",
+        "popularMajors": "工程学、经济学、心理学、计算机科学、医学",
+        "location": "伦敦市区",
+        "livingCost": "建议 £15,000-£20,000/年（伦敦高生活成本）",
+        "totalBudget": "约 £52,000-£57,000/年",
+        "majorDetails": "<tr><td>BSc Computer Science</td><td>A*AA</td><td>100+</td><td>数学A*</td></tr><tr><td>BSc Economics</td><td>A*AA</td><td>100+</td><td>数学A*</td></tr><tr><td>BSc Psychology</td><td>A*AA</td><td>100+</td><td>生物/化学A</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1875,
+          55.9486
+        ]
+      },
+      "properties": {
+        "name": "爱丁堡大学",
+        "applications": "66,293",
+        "admissions": "7302",
+        "ranking": "2026 Times 第25名，QS 第34名",
+        "website": "https://www.ed.ac.uk/",
+        "img": "imgs/EU_logo.jpeg",
+        "tuition": "本科: 文科/非实验科目约 £24,000-£36,000/年；实验/理工科约 £32,200/年起",
+        "popularMajors": "医学、人工智能、金融学、艺术史、工程学",
+        "location": "爱丁堡（苏格兰）",
+        "livingCost": "学校估算约 £12,000-£18,000/年",
+        "totalBudget": "约 £36,000-£50,000/年（视专业及住宿）",
+        "majorDetails": "<tr><td>MBChB Medicine</td><td>A*AA</td><td>100+</td><td>UKCAT</td></tr><tr><td>BSc Artificial Intelligence</td><td>A*AA</td><td>100+</td><td>数学A*</td></tr><tr><td>MSc Finance</td><td>AAB</td><td>100+</td><td>数学A</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.119,
+          51.511
+        ]
+      },
+      "properties": {
+        "name": "伦敦国王学院(KCL)",
+        "applications": "72,000+",
+        "admissions": "8,500+",
+        "ranking": "2026 Times 第19名，QS 第31名",
+        "website": "https://www.kcl.ac.uk/",
+        "img": "imgs/KCL_logo.png",
+        "tuition": "本科: £28,000-£40,000/年",
+        "popularMajors": "医学、法学、国际关系、心理学、传媒学",
+        "location": "伦敦市区",
+        "livingCost": "建议 £15,000-£20,000/年（伦敦高生活成本）",
+        "totalBudget": "约 £43,000-£60,000/年",
+        "majorDetails": "<tr><td>LLB Law</td><td>A*AA</td><td>100+</td><td>-</td></tr><tr><td>BSc Psychology</td><td>A*AA</td><td>100+</td><td>生物/化学A</td></tr><tr><td>BA International Relations</td><td>AAB</td><td>90+</td><td>-</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56,
+          52.234
+        ]
+      },
+      "properties": {
+        "name": "华威大学",
+        "applications": "38,000+",
+        "admissions": "4,800+",
+        "ranking": "2026 Times 第8名，QS 第74名",
+        "website": "https://warwick.ac.uk/",
+        "img": "imgs/WU_logo.png",
+        "tuition": "本科: £26,000-£38,000/年",
+        "popularMajors": "商科、经济学、数学、计算机科学、工程学",
+        "location": "考文垂附近（非伦敦）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £36,000-£51,000/年",
+        "majorDetails": "<tr><td>BSc Economics</td><td>A*AA</td><td>100+</td><td>数学A*</td></tr><tr><td>BSc Computer Science</td><td>A*AA</td><td>100+</td><td>数学A*</td></tr><tr><td>BSc Management</td><td>AAB</td><td>90+</td><td>-</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6,
+          54.775
+        ]
+      },
+      "properties": {
+        "name": "杜伦大学",
+        "applications": "24,000+",
+        "admissions": "4,500+",
+        "ranking": "2026 Times 第3名，QS 第94名",
+        "website": "https://www.durham.ac.uk/",
+        "img": "imgs/DU_logo.png",
+        "tuition": "本科: £26,000-£38,000/年",
+        "popularMajors": "商科、历史学、物理学、地球科学、法学",
+        "location": "杜伦（英格兰东北部）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £36,000-£51,000/年",
+        "majorDetails": "<tr><td>BA History</td><td>AAB</td><td>70+</td><td>-</td></tr><tr><td>BSc Physics</td><td>A*AA</td><td>100+</td><td>数学A</td></tr><tr><td>LLB Law</td><td>A*AA</td><td>100+</td><td>-</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.553,
+          53.801
+        ]
+      },
+      "properties": {
+        "name": "利兹大学",
+        "applications": "81,700+",
+        "admissions": "8,500+",
+        "ranking": "2026 Times 第26名，QS 第86名",
+        "website": "https://www.leeds.ac.uk/",
+        "img": "imgs/LU_logo.png",
+        "tuition": "本科: £24,000-£36,000/年",
+        "popularMajors": "商科、工程学、医学、生物学、计算机科学",
+        "location": "利兹（英格兰北部）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £34,000-£49,000/年",
+        "majorDetails": "<tr><td>BSc Computer Science</td><td>AAB</td><td>90+</td><td>数学A</td></tr><tr><td>BSc Mechanical Engineering</td><td>AAB</td><td>90+</td><td>数学+物理B</td></tr><tr><td>BA Business</td><td>AAB</td><td>90+</td><td>-</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.939,
+          52.458
+        ]
+      },
+      "properties": {
+        "name": "伯明翰大学",
+        "applications": "75,600+",
+        "admissions": "7,800+",
+        "ranking": "2026 Times 第16名，QS 第76名",
+        "website": "https://www.birmingham.ac.uk/",
+        "img": "imgs/BU_logo.png",
+        "tuition": "本科: £25,000-£37,000/年",
+        "popularMajors": "商科、工程学、医学、物理学、社会学",
+        "location": "伯明翰（英格兰中部）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £35,000-£50,000/年",
+        "majorDetails": "<tr><td>BSc Physics</td><td>A*AB</td><td>100+</td><td>数学A</td></tr><tr><td>BEng Electrical Engineering</td><td>AAB</td><td>90+</td><td>数学+物理B</td></tr><tr><td>BSc Psychology</td><td>AAB</td><td>90+</td><td>生物/化学B</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.254,
+          51.754
+        ]
+      },
+      "properties": {
+        "name": "牛津大学",
+        "applications": "23,000+",
+        "admissions": "3,300+",
+        "ranking": "2026 Times 第4名，QS 第4名",
+        "website": "https://www.ox.ac.uk/",
+        "img": "imgs/OU_logo.png",
+        "tuition": "本科: £35,000-£45,000/年",
+        "popularMajors": "人文社科、医学、法学、数学、工程",
+        "location": "牛津（英格兰南部）",
+        "livingCost": "建议 £12,000-£15,000/年",
+        "totalBudget": "约 £47,000-£60,000/年",
+        "majorDetails": "<tr><td>PPE (Philosophy, Politics &amp; Economics)</td><td>A*AA</td><td>100+</td><td>面试</td></tr><tr><td>BA Law</td><td>A*AA</td><td>100+</td><td>面试</td></tr><tr><td>BA Mathematics</td><td>A*A*A</td><td>100+</td><td>面试+MAT</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.114,
+          52.205
+        ]
+      },
+      "properties": {
+        "name": "剑桥大学",
+        "applications": "22,000+",
+        "admissions": "3,400+",
+        "ranking": "2026 Times 第3名，QS 第6名",
+        "website": "https://www.cam.ac.uk/",
+        "img": "imgs/CU_logo.png",
+        "tuition": "本科: £35,000-£50,000/年",
+        "popularMajors": "自然科学、工程、医学、法学、数学",
+        "location": "剑桥（英格兰东部）",
+        "livingCost": "建议 £12,000-£15,000/年",
+        "totalBudget": "约 £47,000-£65,000/年",
+        "majorDetails": "<tr><td>BA Natural Sciences</td><td>A*AA</td><td>100+</td><td>面试+NSAA</td></tr><tr><td>BA Mathematics</td><td>A*A*A</td><td>100+</td><td>面试+STEP</td></tr><tr><td>MBBCh Medicine</td><td>A*AA</td><td>100+</td><td>面试+BMAT</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.314,
+          51.379
+        ]
+      },
+      "properties": {
+        "name": "巴斯大学",
+        "applications": "12,000+",
+        "admissions": "2,000+",
+        "ranking": "2026 Times 第5名，QS 第132名",
+        "website": "https://www.bath.ac.uk/",
+        "img": "imgs/BathU_logo.png",
+        "tuition": "本科: £22,000-£28,000/年",
+        "popularMajors": "商科、工程、建筑学、计算机科学",
+        "location": "巴斯（世界遗产城市）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £32,000-£41,000/年",
+        "majorDetails": "<tr><td>BEng Mechanical Engineering</td><td>A*AA</td><td>100+</td><td>数学+物理A</td></tr><tr><td>BSc Architecture</td><td>AAB</td><td>90+</td><td>作品集</td></tr><tr><td>BSc Management</td><td>AAB</td><td>90+</td><td>-</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.213,
+          52.763
+        ]
+      },
+      "properties": {
+        "name": "拉夫堡大学",
+        "applications": "18,000+",
+        "admissions": "3,000+",
+        "ranking": "2026 Times 第12名，QS 第225名",
+        "website": "https://www.lborough.ac.uk/",
+        "img": "imgs/LboroU_logo.png",
+        "tuition": "本科: £23,000-£30,000/年",
+        "popularMajors": "体育科学、工程、商科、设计、传媒",
+        "location": "拉夫堡（英格兰中部）",
+        "livingCost": "建议 £9,000-£12,000/年",
+        "totalBudget": "约 £32,000-£42,000/年",
+        "majorDetails": "<tr><td>BSc Sport and Exercise Science</td><td>AAB</td><td>90+</td><td>生物/物理B</td></tr><tr><td>BEng Design Engineering</td><td>AAB</td><td>90+</td><td>数学A</td></tr><tr><td>BSc Business Management</td><td>AAB</td><td>90+</td><td>-</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.485,
+          53.381
+        ]
+      },
+      "properties": {
+        "name": "谢菲尔德大学",
+        "applications": "38,000+",
+        "admissions": "7,000+",
+        "ranking": "2026 Times 第13名，QS 第92名",
+        "website": "https://www.sheffield.ac.uk/",
+        "img": "imgs/SheffU_logo.png",
+        "tuition": "本科: £22,000-£32,000/年",
+        "popularMajors": "工程学、医学、商科、计算机科学",
+        "location": "谢菲尔德（英格兰北部）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £32,000-£45,000/年",
+        "majorDetails": "<tr><td>BEng Electronic Engineering</td><td>AAB</td><td>90+</td><td>数学+物理B</td></tr><tr><td>BSc Computer Science</td><td>AAB</td><td>90+</td><td>数学A</td></tr><tr><td>BSc Economics</td><td>AAB</td><td>90+</td><td>数学A</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.144,
+          55.871
+        ]
+      },
+      "properties": {
+        "name": "格拉斯哥大学",
+        "applications": "48,000+",
+        "admissions": "8,000+",
+        "ranking": "2026 Times 第14名，QS 第79名",
+        "website": "https://www.gla.ac.uk/",
+        "img": "imgs/GU_logo.png",
+        "tuition": "本科: £22,000-£38,000/年",
+        "popularMajors": "医学、法学、工程学、商科、生命科学",
+        "location": "格拉斯哥（苏格兰）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £32,000-£51,000/年",
+        "majorDetails": "<tr><td>MBChB Medicine</td><td>A*AA</td><td>100+</td><td>UKCAT</td></tr><tr><td>LLB Law</td><td>AAB</td><td>90+</td><td>-</td></tr><tr><td>BSc Accounting &amp; Finance</td><td>AAB</td><td>90+</td><td>数学B</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.404,
+          50.935
+        ]
+      },
+      "properties": {
+        "name": "南安普顿大学",
+        "applications": "28,000+",
+        "admissions": "5,000+",
+        "ranking": "2026 Times 第18名，QS 第87名",
+        "website": "https://www.southampton.ac.uk/",
+        "img": "imgs/SotonU_logo.png",
+        "tuition": "本科: £22,000-£32,000/年",
+        "popularMajors": "工程学、海洋学、医学、计算机科学",
+        "location": "南安普顿（沿海城市）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £32,000-£45,000/年",
+        "majorDetails": "<tr><td>BEng Aerospace Engineering</td><td>AAB</td><td>90+</td><td>数学+物理B</td></tr><tr><td>BSc Oceanography</td><td>AAB</td><td>90+</td><td>数学+物理B</td></tr><tr><td>BSc Computer Science</td><td>AAB</td><td>90+</td><td>数学A</td></tr>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.966,
+          53.406
+        ]
+      },
+      "properties": {
+        "name": "利物浦大学",
+        "applications": "32,000+",
+        "admissions": "5,500+",
+        "ranking": "2026 Times 第18名，QS 第147名",
+        "website": "https://www.liverpool.ac.uk/",
+        "img": "imgs/LivU_logo.png",
+        "tuition": "本科: £20,000-£28,000/年",
+        "popularMajors": "医学、兽医学、工程学、商科、计算机科学",
+        "location": "利物浦（英格兰西北部）",
+        "livingCost": "建议 £10,000-£13,000/年",
+        "totalBudget": "约 £30,000-£41,000/年",
+        "majorDetails": "<tr><td>MBChB Medicine</td><td>A*AA</td><td>100+</td><td>UKCAT</td></tr><tr><td>BSc Veterinary Science</td><td>A*AA</td><td>100+</td><td>UKCAT</td></tr><tr><td>BEng Mechanical Engineering</td><td>AAB</td><td>90+</td><td>数学+物理B</td></tr>"
+      }
+    }
+  ]
+}

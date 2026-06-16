@@ -1,0 +1,893 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-122.2585, 37.8719] },
+      "properties": {
+        "name": "UC Berkeley",
+        "applicants": "126,836",
+        "admits": "14,451",
+        "intl": "24,020",
+        "admitRate": "11.4%",
+        "ranking": "2026 US News排名第15",
+        "website": "https://www.berkeley.edu",
+        "img": "imgs/UCB.jpeg",
+        "tuition": "国际生$55,323/年，食宿平均$24,000/年（数据来源于US News 2026美国学校排名）",
+        "popularMajors": "计算机科学、社科类、工程学、生命科学类",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "College of Letters & Science",
+            "chineseName": "文理学院",
+            "description": "UCB 最大学院，涵盖人文、社会科学、自然科学、生命科学。",
+            "notes": "本科生和跨学科研究最多。",
+            "popularMajors": ["Computer Science", "Economics", "Psychology", "Political Science", "Biology"]
+          },
+          {
+            "id": 2,
+            "name": "College of Engineering",
+            "chineseName": "工程学院",
+            "description": "包括电气与计算机工程、机械工程、土木与环境工程、生物工程、材料科学等。",
+            "notes": "工程学全美顶尖，CS、EECS 排名世界前列。",
+            "popularMajors": []
+          },
+          {
+            "id": 3,
+            "name": "Haas School of Business",
+            "chineseName": "商学院",
+            "description": "本科和研究生商科项目（MBA、MFE、BA in Business Administration）",
+            "notes": "全球排名前20，强调创新与创业，与硅谷联系紧密。",
+            "popularMajors": []
+          },
+          {
+            "id": 4,
+            "name": "College of Chemistry",
+            "chineseName": "化学学院",
+            "description": "包括化学与化学生物学",
+            "notes": "研究实力世界一流，诺奖获得者众多。",
+            "popularMajors": []
+          },
+          {
+            "id": 5,
+            "name": "College of Environmental Design",
+            "chineseName": "环境设计学院",
+            "description": "建筑、城市规划、景观建筑",
+            "notes": "美国历史最悠久的建筑与规划学院之一。",
+            "popularMajors": []
+          },
+          {
+            "id": 6,
+            "name": "College of Natural Resources",
+            "chineseName": "自然资源学院",
+            "description": "生态学、环境科学、可持续发展、农业经济",
+            "notes": "全球环境科学和可持续发展领域的领导者。",
+            "popularMajors": []
+          },
+          {
+            "id": 7,
+            "name": "School of Law",
+            "chineseName": "法学院",
+            "description": "",
+            "notes": "全美顶尖法学院之一，尤其在宪法法、环境法及科技法方向突出。",
+            "popularMajors": []
+          },
+          {
+            "id": 8,
+            "name": "College of Engineering & Applied Science",
+            "chineseName": "工程与应用科学学院",
+            "description": "已整合入工程学院，主攻工科",
+            "notes": "",
+            "popularMajors": []
+          },
+          {
+            "id": 9,
+            "name": "School of Public Health",
+            "chineseName": "公共卫生学院",
+            "description": "",
+            "notes": "流行病学与全球健康领域全美顶尖。",
+            "popularMajors": []
+          },
+          {
+            "id": 10,
+            "name": "School of Education",
+            "chineseName": "教育学院",
+            "description": "",
+            "notes": "教育学研究与师资培训全美领先。",
+            "popularMajors": []
+          },
+          {
+            "id": 11,
+            "name": "College of Environmental Science & Forestry",
+            "chineseName": "环境科学与林业学院",
+            "description": "强调可持续发展、气候与环境研究。",
+            "notes": "",
+            "popularMajors": []
+          },
+          {
+            "id": 12,
+            "name": "School of Information",
+            "chineseName": "信息学院",
+            "description": "信息科学、数据科学、人工智能应用",
+            "notes": "与CS和商业分析紧密结合。",
+            "popularMajors": []
+          },
+          {
+            "id": 13,
+            "name": "College of Optometry",
+            "chineseName": "视光学院",
+            "description": "",
+            "notes": "专注眼科与视光学研究。",
+            "popularMajors": []
+          },
+          {
+            "id": 14,
+            "name": "College of Public Policy & Social Welfare",
+            "chineseName": "公共事务学院",
+            "description": "政策分析、社会福利、城市规划",
+            "notes": "公共政策和社会科学研究实力强。",
+            "popularMajors": []
+          }
+        ],
+        "overallPopularMajors": [
+          {
+            "name": "Computer Science / EECS",
+            "note": "全美顶尖"
+          },
+          {
+            "name": "Economics / Business / Finance",
+            "note": "Haas商学院"
+          },
+          {
+            "name": "Environmental Science & Sustainability",
+            "note": ""
+          },
+          {
+            "name": "Political Science / International Relations",
+            "note": ""
+          },
+          {
+            "name": "Psychology / Cognitive Science",
+            "note": ""
+          },
+          {
+            "name": "Engineering各方向（材料、机械、电子）",
+            "note": ""
+          },
+          {
+            "name": "Public Policy / Law / Data Science",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-118.4452, 34.0689] },
+      "properties": {
+        "name": "UCLA",
+        "applicants": "145,070",
+        "admits": "13,660",
+        "intl": "24,200",
+        "admitRate": "9.4%",
+        "ranking": "2026 US News排名第17",
+        "website": "https://www.ucla.edu",
+        "img": "imgs/UCLA.jpg",
+        "tuition": "国际生约$48,674/年，食宿平均$22,000/年（数据来源于US News 2026美国学校排名）",
+        "popularMajors": "经济学、生物学、心理学、工程学",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "College of Letters and Science",
+            "chineseName": "文理学院",
+            "description": "UCLA最大学院，涵盖人文、社会科学、自然科学、生命科学等。",
+            "notes": "本科生最主要的学院，专业最广、学生最多。",
+            "popularMajors": ["Psychology", "Economics", "Communication", "Biology"]
+          },
+          {
+            "id": 2,
+            "name": "School of Engineering and Applied Science",
+            "chineseName": "工程与应用科学学院",
+            "alternativeName": "Henry Samueli School of Engineering",
+            "description": "包括计算机、电气、机械、生物工程、材料等。",
+            "notes": "CS、EE、Bioengineering 全美领先，就业强势。",
+            "popularMajors": ["Computer Science", "Electrical Engineering", "Bioengineering", "Mechanical Engineering"]
+          },
+          {
+            "id": 3,
+            "name": "School of Arts and Architecture",
+            "chineseName": "艺术与建筑学院",
+            "description": "视觉艺术、建筑、艺术史、设计媒体艺术。",
+            "notes": "艺术专业在全美知名，申请需作品集。",
+            "popularMajors": []
+          },
+          {
+            "id": 4,
+            "name": "Herb Alpert School of Music",
+            "chineseName": "音乐学院",
+            "description": "作曲、表演、音乐教育与音乐学",
+            "notes": "与好莱坞音乐产业联系紧密。",
+            "popularMajors": []
+          },
+          {
+            "id": 5,
+            "name": "School of Theater, Film and Television",
+            "chineseName": "戏剧、电影和电视学院",
+            "description": "",
+            "notes": "全美顶尖影视学院之一，校友遍布好莱坞。",
+            "popularMajors": ["Film Production", "Screenwriting", "Acting"]
+          },
+          {
+            "id": 6,
+            "name": "School of Nursing",
+            "chineseName": "护理学院",
+            "description": "",
+            "notes": "与UCLA医疗系统合作，临床资源充足。",
+            "popularMajors": []
+          },
+          {
+            "id": 7,
+            "name": "School of Dentistry",
+            "chineseName": "牙医学院",
+            "description": "",
+            "notes": "全美领先的牙医培训与口腔医学研究中心。",
+            "popularMajors": []
+          },
+          {
+            "id": 8,
+            "name": "David Geffen School of Medicine",
+            "chineseName": "医学院",
+            "description": "",
+            "notes": "全美顶尖医学院之一，科研实力强大。",
+            "popularMajors": []
+          },
+          {
+            "id": 9,
+            "name": "School of Education & Information Studies",
+            "chineseName": "教育与信息学院",
+            "description": "教育学、心理教育、信息研究",
+            "notes": "教育方向全美前十。",
+            "popularMajors": []
+          },
+          {
+            "id": 10,
+            "name": "Anderson School of Management",
+            "chineseName": "管理学院，商学院",
+            "description": "MBA、金融、商业分析、会计",
+            "notes": "与硅谷和洛杉矶科技娱乐行业联系密切，全球商学院名校。",
+            "popularMajors": []
+          },
+          {
+            "id": 11,
+            "name": "Luskin School of Public Affairs",
+            "chineseName": "公共事务学院",
+            "description": "公共政策、社会福利、城市规划",
+            "notes": "在公共政策与城市研究方向极具影响力。",
+            "popularMajors": []
+          },
+          {
+            "id": 12,
+            "name": "Fielding School of Public Health",
+            "chineseName": "公共卫生学院",
+            "description": "",
+            "notes": "在流行病学、环境健康等方向全美前列。",
+            "popularMajors": []
+          }
+        ],
+        "overallPopularMajors": [
+          {
+            "name": "Film & TV",
+            "note": "全美顶尖"
+          },
+          {
+            "name": "Computer Science / Engineering",
+            "note": ""
+          },
+          {
+            "name": "Psychology",
+            "note": "申请最热门专业之一"
+          },
+          {
+            "name": "Economics / Business Economics",
+            "note": ""
+          },
+          {
+            "name": "Biology & Pre-med方向",
+            "note": ""
+          },
+          {
+            "name": "Public Policy / Urban Planning",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-117.2340, 32.8801] },
+      "properties": {
+        "name": "UC San Diego",
+        "applicants": "136,740",
+        "admits": "38,846",
+        "intl": "16,900",
+        "admitRate": "28.4%",
+        "ranking": "2026 US News排名第29",
+        "website": "https://www.ucsd.edu",
+        "img": "imgs/UCSD.jpeg",
+        "tuition": "国际生约$54,858/年，食宿平均$19,000/年（数据来源于US News 2026美国学校排名）",
+        "popularMajors": "计算机科学、生物学、经济学、工程学",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "Revelle College",
+            "chineseName": "雷维尔学院",
+            "founded": "1964",
+            "coreIdea": "学术基础与全面教育",
+            "description": "最老的学院，通识课要求最重，强调科学与人文均衡。适合理科、工科基础扎实的学生。",
+            "popularMajors": []
+          },
+          {
+            "id": 2,
+            "name": "John Muir College",
+            "chineseName": "约翰·缪尔学院",
+            "founded": "1967",
+            "coreIdea": "个体自由与责任",
+            "description": "学分要求灵活，课程自由度高，选课限制少。深受喜欢自由组合课程的学生欢迎。",
+            "popularMajors": []
+          },
+          {
+            "id": 3,
+            "name": "Thurgood Marshall College",
+            "chineseName": "瑟古德·马歇尔学院",
+            "founded": "1970",
+            "coreIdea": "社会正义与平等",
+            "description": "强调社会责任与公民参与，人文社科学生较多。",
+            "popularMajors": []
+          },
+          {
+            "id": 4,
+            "name": "Earl Warren College",
+            "chineseName": "厄尔·沃伦学院",
+            "founded": "1974",
+            "coreIdea": "职业与学术平衡",
+            "description": "注重职业导向，要求学生选修\"双领域\"（Major + Minor）。",
+            "popularMajors": []
+          },
+          {
+            "id": 5,
+            "name": "Eleanor Roosevelt College (ERC)",
+            "chineseName": "埃莉诺·罗斯福学院",
+            "founded": "1988",
+            "coreIdea": "国际视野与全球意识",
+            "description": "语言要求最高（必须修外语），国际学生比例高，注重跨文化理解。",
+            "popularMajors": []
+          },
+          {
+            "id": 6,
+            "name": "Sixth College",
+            "chineseName": "第六学院",
+            "founded": "2002",
+            "coreIdea": "文化、艺术与科技",
+            "description": "创意性强，课程现代化，重视多媒体与新技术表达。",
+            "popularMajors": []
+          },
+          {
+            "id": 7,
+            "name": "Seventh College",
+            "chineseName": "第七学院",
+            "founded": "2020",
+            "coreIdea": "跨学科研究与全球挑战",
+            "description": "最新学院，注重跨学科解决现实问题（如气候、科技、社会议题）。",
+            "popularMajors": []
+          },
+          {
+            "id": 8,
+            "name": "Eighth College",
+            "chineseName": "第八学院",
+            "founded": "2023",
+            "coreIdea": "伦理、正义与社会影响",
+            "description": "最新成立，关注社会伦理、科技影响与公平议题。",
+            "popularMajors": []
+          }
+        ],
+        "collegeComparison": "| 项目                 | 不同点说明                                                      |\n| ------------------ | ---------------------------------------------------------- |\n| 🎓 **通识教育要求（GE）**  | 各学院课程要求不同，有的更重（Revelle），有的更轻（Muir）。GE 是 UCSD 各学院区别的最大来源。   |\n| 🏠 **住宿区域**        | 每个学院都有自己独立的宿舍区、餐厅、学习空间，社群氛围不同。                             |\n| 🧑‍🤝‍🧑 **社群与文化** | 学院会举办自己的活动、传统节日，社交氛围差异明显。                                  |\n| 🧭 **专业选择**        | 专业归属在学术部门（如工程学院、社会科学学院），**与学院无关**。学院影响的是**GE课和住宿生活**，不是专业。 |",
+        "academicDivisions": "UCSD有六个主要学术部门（Division/School）提供专业教育：人文艺术学院、生物科学学院、物理科学学院、雅各布斯工程学院、社会科学学院和拉迪商学院。这些学术部门负责管理专业课程，而学生通过上述八个本科学院进行通识教育。",
+        "overallPopularMajors": [
+          {
+            "name": "Computer Science / Engineering",
+            "note": "全美顶尖"
+          },
+          {
+            "name": "Biology / Neurobiology / Bioengineering",
+            "note": ""
+          },
+          {
+            "name": "Economics / Business Analytics",
+            "note": ""
+          },
+          {
+            "name": "Psychology / Cognitive Science",
+            "note": ""
+          },
+          {
+            "name": "Physics / Chemistry / Mathematics",
+            "note": ""
+          },
+          {
+            "name": "Medicine / Biomedical Sciences",
+            "note": ""
+          },
+          {
+            "name": "Marine Biology / Oceanography",
+            "note": "海洋科学优势明显"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-119.8489, 34.4139] },
+      "properties": {
+        "name": "UC Santa Barbara",
+        "applicants": "26,000",
+        "admits": "32,326",
+        "intl": "3,000",
+        "admitRate": "14%",
+        "ranking": "2026 US News排名第40",
+        "website": "https://www.ucsb.edu",
+        "img": "imgs/UCSB.jpeg",
+        "tuition": "国际生约$62,000/年",
+        "popularMajors": "心理学、生物科学、经济学、环境科学",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "College of Letters and Science",
+            "chineseName": "文理学院",
+            "description": "涵盖人文、社会科学、自然科学、数学和计算机科学等",
+            "notes": "最大的学院，包含多个热门专业",
+            "popularMajors": ["Psychology", "Biology", "Economics", "Computer Science", "Physics"]
+          },
+          {
+            "id": 2,
+            "name": "Bren School of Environmental Science & Management",
+            "chineseName": "环境科学与管理学院",
+            "description": "环境科学、海洋科学、可持续发展等",
+            "notes": "全球顶尖的环境科学学院",
+            "popularMajors": ["Environmental Science", "Marine Biology", "Sustainability"]
+          },
+          {
+            "id": 3,
+            "name": "College of Engineering",
+            "chineseName": "工程学院",
+            "description": "计算机工程、电子工程、机械工程等",
+            "notes": "工程学科实力强劲",
+            "popularMajors": ["Computer Engineering", "Electrical Engineering", "Mechanical Engineering"]
+          },
+          {
+            "id": 4,
+            "name": "Gevirtz Graduate School of Education",
+            "chineseName": "教育学院",
+            "description": "教育理论与实践研究",
+            "notes": "教育领域研究实力强",
+            "popularMajors": ["Education", "Educational Psychology"]
+          }
+        ],
+        "overallPopularMajors": [
+          {
+            "name": "Psychology",
+            "note": ""
+          },
+          {
+            "name": "Biological Sciences",
+            "note": ""
+          },
+          {
+            "name": "Economics",
+            "note": ""
+          },
+          {
+            "name": "Environmental Science",
+            "note": "海洋科学和环境科学优势"
+          },
+          {
+            "name": "Computer Science & Engineering",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-117.8443, 33.6405] },
+      "properties": {
+        "name": "UC Irvine",
+        "applicants": "36,000",
+        "admits": "31,261",
+        "intl": "6,200",
+        "admitRate": "17%",
+        "ranking": "2026 US News排名第32",
+        "website": "https://www.uci.edu",
+        "img": "imgs/UCI.jpeg",
+        "tuition": "国际生约$61,000/年",
+        "popularMajors": "生物科学、计算机科学、经济学、心理学",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "Donald Bren School of Information and Computer Sciences",
+            "chineseName": "信息与计算机科学学院",
+            "description": "计算机科学、信息学、数据科学等",
+            "notes": "计算机科学实力强劲，与 industry合作紧密",
+            "popularMajors": ["Computer Science", "Information and Computer Science", "Data Science"]
+          },
+          {
+            "id": 2,
+            "name": "School of Biological Sciences",
+            "chineseName": "生物科学学院",
+            "description": "生物学、神经科学、生物医学工程等",
+            "notes": "生物科学研究实力强",
+            "popularMajors": ["Biology", "Neuroscience", "Biomedical Engineering"]
+          },
+          {
+            "id": 3,
+            "name": "Henry Samueli School of Engineering",
+            "chineseName": "工程学院",
+            "description": "电气、机械、土木、材料工程等",
+            "notes": "工程学科排名靠前",
+            "popularMajors": ["Electrical Engineering", "Mechanical Engineering", "Civil Engineering"]
+          },
+          {
+            "id": 4,
+            "name": "School of Social Sciences",
+            "chineseName": "社会科学学院",
+            "description": "经济学、心理学、社会学等",
+            "notes": "经济学和心理学是热门专业",
+            "popularMajors": ["Economics", "Psychology", "Sociology"]
+          },
+          {
+            "id": 5,
+            "name": "Paul Merage School of Business",
+            "chineseName": "梅拉奇商学院",
+            "description": "工商管理、金融、市场营销、商业分析等",
+            "notes": "商学院排名全美前50，与南加州商业圈联系紧密",
+            "popularMajors": ["Business Administration", "Finance", "Marketing", "Business Analytics"]
+          }
+        ],
+        "overallPopularMajors": [
+          {
+            "name": "Computer Science",
+            "note": "信息与计算机科学学院核心专业"
+          },
+          {
+            "name": "Biological Sciences",
+            "note": ""
+          },
+          {
+            "name": "Economics",
+            "note": ""
+          },
+          {
+            "name": "Psychology",
+            "note": ""
+          },
+          {
+            "name": "Engineering",
+            "note": ""
+          },
+          {
+            "name": "Business Administration / Finance",
+            "note": "梅拉奇商学院优势专业"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-121.7617, 38.5382] },
+      "properties": {
+        "name": "UC Davis",
+        "applicants": "102,980",
+        "admits": "39,640",
+        "intl": "20,900",
+        "admitRate": "44.6%",
+        "ranking": "2026 US News排名第32",
+        "website": "https://www.ucdavis.edu",
+        "img": "imgs/UCD.jpeg",
+        "tuition": "国际生学费$50,324/年，食宿平均$20,000/年（数据来源于US News 2026美国学校排名）",
+        "popularMajors": "生命科学、人文学科、工程学",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "College of Agricultural and Environmental Sciences",
+            "chineseName": "农业与环境科学学院",
+            "description": "涵盖农业、生物资源、环境科学与食品科学等。",
+            "notes": "全美农业与环境科学顶尖，农业经济、作物科学、生态学极具优势。",
+            "popularMajors": []
+          },
+          {
+            "id": 2,
+            "name": "College of Biological Sciences",
+            "chineseName": "生物科学学院",
+            "description": "专注于生物学、生态学、神经科学、微生物学等方向。",
+            "notes": "生命科学研究实力强，科研经费充足，适合预科医学生和科研导向学生。",
+            "popularMajors": []
+          },
+          {
+            "id": 3,
+            "name": "College of Engineering",
+            "chineseName": "工程学院",
+            "description": "包括机械、电气、计算机、生物工程、土木与环境工程等。",
+            "notes": "工程学全美排名靠前，特别是生物工程、环境工程、计算机科学方向。",
+            "popularMajors": []
+          },
+          {
+            "id": 4,
+            "name": "College of Letters and Science",
+            "chineseName": "文理学院",
+            "description": "涵盖人文、社会科学、数学、物理、计算机等基础学科。",
+            "notes": "本科生人数最多，热门专业包括 Economics、Psychology、Communication、Political Science。",
+            "popularMajors": ["Economics", "Psychology", "Communication", "Political Science"]
+          },
+          {
+            "id": 5,
+            "name": "Graduate School of Management",
+            "chineseName": "戴维斯商学院",
+            "description": "提供 MBA、Master of Professional Accountancy 等项目。",
+            "notes": "商学院与农业、工程等跨学科结合紧密，强调实践与管理能力。",
+            "popularMajors": []
+          },
+          {
+            "id": 6,
+            "name": "School of Law",
+            "chineseName": "法学院",
+            "description": "",
+            "notes": "环境法、公共政策法方向强，结合 UC Davis 的环境与农业优势。",
+            "popularMajors": []
+          },
+          {
+            "id": 7,
+            "name": "School of Medicine & Veterinary Medicine",
+            "chineseName": "医学院和兽医学院",
+            "description": "",
+            "notes": "医学、兽医及健康科学研究全美领先，尤其兽医专业长期排名全美第一。",
+            "popularMajors": []
+          }
+        ],
+        "overallPopularMajors": [
+          {
+            "name": "Agriculture & Environmental Science",
+            "note": "全美顶尖"
+          },
+          {
+            "name": "Biological Sciences / Neurobiology",
+            "note": ""
+          },
+          {
+            "name": "Engineering（Bioengineering / Computer / Civil）",
+            "note": ""
+          },
+          {
+            "name": "Veterinary Medicine",
+            "note": "全美第一"
+          },
+          {
+            "name": "Economics / Business / Accounting",
+            "note": ""
+          },
+          {
+            "name": "Environmental Policy / Sustainability",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-122.0583, 36.9916] },
+      "properties": {
+        "name": "UC Santa Cruz",
+        "founded": 1965,
+        "applicants": "19,000",
+        "admits": "2,280",
+        "intl": "1,800",
+        "admitRate": "12%",
+        "ranking": "2026 US News排名第88",
+        "website": "https://www.ucsc.edu",
+        "img": "imgs/UCSC.jpg",
+        "tuition": "国际生约$59,000/年",
+        "popularMajors": "计算机科学、生物学、心理学、环境科学",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "Jack Baskin School of Engineering",
+            "chineseName": "工程学院",
+            "description": "包括计算机科学、电子工程、生物工程等",
+            "notes": "计算机科学与工程专业实力强",
+            "popularMajors": ["Computer Science", "Computer Engineering", "Biomolecular Engineering"]
+          },
+          {
+            "id": 2,
+            "name": "Division of Natural Sciences",
+            "chineseName": "自然科学学院",
+            "description": "涵盖生物学、化学、物理学、海洋科学等",
+            "notes": "海洋科学和环境科学研究实力强",
+            "popularMajors": ["Biology", "Chemistry", "Physics", "Marine Biology"]
+          },
+          {
+            "id": 3,
+            "name": "Division of Humanities",
+            "chineseName": "人文学院",
+            "description": "人文社科、艺术、历史、文学等",
+            "notes": "强调跨学科研究",
+            "popularMajors": ["Literature", "History", "Philosophy", "Linguistics"]
+          },
+          {
+            "id": 4,
+            "name": "Division of Social Sciences",
+            "chineseName": "社会科学学院",
+            "description": "心理学、经济学、社会学、政治学等",
+            "notes": "心理学和经济学是热门专业",
+            "popularMajors": ["Psychology", "Economics", "Sociology"]
+          }
+        ],
+        "overallPopularMajors": [
+          {
+            "name": "Computer Science",
+            "note": "工程学院重点专业"
+          },
+          {
+            "name": "Biology",
+            "note": ""
+          },
+          {
+            "name": "Psychology",
+            "note": ""
+          },
+          {
+            "name": "Environmental Science",
+            "note": ""
+          },
+          {
+            "name": "Literature",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-117.3281, 33.9737] },
+      "properties": {
+        "name": "UC Riverside",
+        "applicants": "24,000",
+        "admits": "29,936",
+        "intl": "2,600",
+        "admitRate": "10%",
+        "ranking": "2026 US News排名第75",
+        "website": "https://www.ucr.edu",
+        "img": "imgs/UCR.jpeg",
+        "tuition": "国际生约$58,000/年",
+        "popularMajors": "心理学、生物科学、工程学、工商管理",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "College of Humanities, Arts and Social Sciences",
+            "chineseName": "人文、艺术与社会科学学院",
+            "description": "心理学、社会学、文学、历史等",
+            "notes": "心理学是热门专业",
+            "popularMajors": ["Psychology", "Sociology", "Literature", "History"]
+          },
+          {
+            "id": 2,
+            "name": "College of Natural and Agricultural Sciences",
+            "chineseName": "自然与农业科学学院",
+            "description": "生物学、化学、物理学、农业科学等",
+            "notes": "农业科学和环境科学优势",
+            "popularMajors": ["Biology", "Chemistry", "Physics", "Environmental Sciences"]
+          },
+          {
+            "id": 3,
+            "name": "Bourns College of Engineering",
+            "chineseName": "工程学院",
+            "description": "电气、机械、计算机、材料工程等",
+            "notes": "工程学科不断发展",
+            "popularMajors": ["Electrical Engineering", "Mechanical Engineering", "Computer Engineering", "Materials Science"]
+          },
+          {
+            "id": 4,
+            "name": "School of Business Administration",
+            "chineseName": "工商管理学院",
+            "description": "工商管理、金融、市场营销等",
+            "notes": "商学院发展迅速",
+            "popularMajors": ["Business Administration", "Finance", "Marketing"]
+          }
+        ],
+        "overallPopularMajors": [
+          {
+            "name": "Psychology",
+            "note": ""
+          },
+          {
+            "name": "Biological Sciences",
+            "note": ""
+          },
+          {
+            "name": "Engineering",
+            "note": ""
+          },
+          {
+            "name": "Business Administration",
+            "note": ""
+          },
+          {
+            "name": "Environmental Sciences",
+            "note": "农业与环境优势"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-120.4310, 37.3635] },
+      "properties": {
+        "name": "UC Merced",
+        "applicants": "49,358（+63.7%）",
+        "admits": "46,938",
+        "intl": "4,856（+17.84%）",
+        "admitRate": "95.1%",
+        "ranking": "2026 US News排名第57",
+        "website": "https://www.ucmerced.edu",
+        "img": "imgs/UCM.jpeg",
+        "tuition": "国际生约$49,094/年，食宿平均$22,000/年（数据来源于US News 2026美国学校排名）",
+        "popularMajors": "生物科学、工程学、心理学、环境科学",
+        "colleges": [
+          {
+            "id": 1,
+            "name": "School of Engineering",
+            "chineseName": "工程学院",
+            "description": "包括计算机科学、生物工程、机械工程、电气工程等",
+            "notes": "新兴工程学院，注重实践与创新",
+            "popularMajors": ["Computer Science", "Biomedical Engineering", "Mechanical Engineering", "Electrical Engineering"]
+          },
+          {
+            "id": 2,
+            "name": "School of Natural Sciences",
+            "chineseName": "自然科学学院",
+            "description": "生物学、化学、物理学、环境科学等",
+            "notes": "生物科学和环境科学是优势学科",
+            "popularMajors": ["Biology", "Chemistry", "Physics", "Environmental Science"]
+          },
+          {
+            "id": 3,
+            "name": "School of Social Sciences, Humanities and Arts",
+            "chineseName": "社会科学、人文与艺术学院",
+            "description": "心理学、经济学、文学、历史等",
+            "notes": "跨学科教育是特色",
+            "popularMajors": ["Psychology", "Economics", "Literature", "History"]
+          }
+        ],
+        "overallPopularMajors": [
+          {
+            "name": "Biological Sciences",
+            "note": ""
+          },
+          {
+            "name": "Computer Science & Engineering",
+            "note": ""
+          },
+          {
+            "name": "Psychology",
+            "note": ""
+          },
+          {
+            "name": "Environmental Science",
+            "note": ""
+          },
+          {
+            "name": "Economics",
+            "note": ""
+          }
+        ]
+      }
+    }
+  ]
+}

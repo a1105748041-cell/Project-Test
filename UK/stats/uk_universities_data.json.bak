@@ -1,0 +1,405 @@
+{
+  "6-10": [
+    {
+      "学校名称": "圣安德鲁斯University of St Andrews",
+      "排名": 2.0,
+      "热门专业": "Mathematics BSc (Honours)：https://www.st-andrews.ac.uk/subjects/mathematics/mathematics-bsc/",
+      "录取要求": "55555，数学5",
+      "语言要求": "79+",
+      "查询地址": "https://www.st-andrews.ac.uk/subjects/entry/usa/\n语言：https://www.st-andrews.ac.uk/subjects/entry/language-requirements/undergraduate/"
+    },
+    {
+      "热门专业": "Psychology BSc (Honours)：\nhttps://www.st-andrews.ac.uk/subjects/psychology/psychology-bsc/",
+      "录取要求": 554,
+      "语言要求": "79+"
+    },
+    {
+      "热门专业": "Physics BSc (Honours)：\nhttps://www.st-andrews.ac.uk/subjects/physics/physics-bsc/#entry-requirements",
+      "录取要求": "555，Mathematics and Physics.",
+      "语言要求": "79+"
+    },
+    {
+      "热门专业": "Environmental Earth Sciences BSc (Honours)：\nhttps://www.st-andrews.ac.uk/subjects/earth-environmental-sciences/environmental-earth-sciences-bsc/",
+      "录取要求": "554，ncluding two of the following subjects: Biology, Chemistry, Environmental Science, Geography, Geology, Mathematics and Physics.",
+      "语言要求": "79+"
+    },
+    {
+      "热门专业": "Economics BSc (Honours)：\nhttps://www.st-andrews.ac.uk/subjects/economics/economics-bsc/",
+      "录取要求": 555,
+      "语言要求": "79+"
+    },
+    {
+      "热门专业": "Management BSc (Honours)：\nhttps://www.st-andrews.ac.uk/subjects/management/management-bsc/",
+      "录取要求": 555,
+      "语言要求": "79+"
+    },
+    {
+      "学校名称": "杜伦大学Durham University",
+      "排名": 3.0,
+      "热门专业": "Finance：https://www.durham.ac.uk/business/courses/finance-2c77/#entry-requirements",
+      "录取要求": 554,
+      "语言要求": "80+",
+      "查询地址": "https://www.dur.ac.uk/study/international/regional-pages/north-america/#d.en.467523  \n语言：https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/direct-entry-band-e/"
+    },
+    {
+      "热门专业": "Business and Management：\nhttps://www.durham.ac.uk/business/courses/business-and-management-n201/",
+      "录取要求": 544,
+      "语言要求": "80+"
+    },
+    {
+      "热门专业": "Marketing and Management：\nhttps://www.durham.ac.uk/business/courses/marketing-and-management-n509/",
+      "录取要求": "555或5544",
+      "语言要求": "80+"
+    },
+    {
+      "热门专业": "Psychology：https://www.durham.ac.uk/study/courses/psychology-c800/",
+      "录取要求": "555或5544",
+      "语言要求": "80+"
+    },
+    {
+      "热门专业": "Chemistry：https://www.durham.ac.uk/study/courses/chemistry-f100/",
+      "录取要求": 555,
+      "语言要求": "80+"
+    },
+    {
+      "热门专业": "Physics：https://www.durham.ac.uk/study/courses/physics-f300/",
+      "录取要求": "555 higher",
+      "语言要求": "80+"
+    },
+    {
+      "热门专业": "Chemistry and Physics(MSci)：\nhttps://www.durham.ac.uk/study/courses/chemistry-and-physics-msci-ff14/",
+      "录取要求": 555,
+      "语言要求": "80+"
+    },
+    {
+      "热门专业": "Economics：https://www.durham.ac.uk/business/courses/economics-l100/",
+      "录取要求": 555,
+      "语言要求": "80+"
+    },
+    {
+      "热门专业": "Mathematics：https://www.durham.ac.uk/study/courses/mathematics-g100/",
+      "录取要求": "555 higher",
+      "语言要求": "80+"
+    },
+    {
+      "学校名称": "帝国理工Imperial College London",
+      "排名": 6.0,
+      "热门专业": "Mathematics (Pure Mathematics)：https://www.imperial.ac.uk/study/courses/undergraduate/pure-mathematics-bsc/",
+      "录取要求": "minimum entry standard is 5, 5, 5 overall, from:\n5 in Calculus BC\n5 in Chemistry, Physics C (Electricity and Magnetism, or Mechanics), Statistics or Computer Science\n5 in another subject",
+      "语言要求": "100 overall (minimum 22 in all elements)",
+      "额外要求": "TMUA",
+      "查询地址": "语言：https://www.imperial.ac.uk/study/apply/english-language/"
+    },
+    {
+      "热门专业": "Ecology and Environmental Biology：https://www.imperial.ac.uk/study/courses/undergraduate/ecology-environmental-biology/",
+      "录取要求": "minimum entry standard is 5, 5, 5 overall, from:\n5 in Biology\n5 in Chemistry, Physics (1 or 2 or C) or Calculus (AB or BC)\n5 in another subject (excluding Art, Music and languages other than English)",
+      "语言要求": "100 overall (minimum 22 in all elements)"
+    },
+    {
+      "热门专业": "Geophysics：https://www.imperial.ac.uk/study/courses/undergraduate/geophysics-bsc/",
+      "录取要求": "Our minimum entry standard is 5, 5, 5 overall, from:\n5 in Calculus AB or BC\n5 in Physics\n5 in another subject",
+      "语言要求": "100 overall (minimum 22 in all elements)"
+    },
+    {
+      "热门专业": "Biological Sciences：https://www.imperial.ac.uk/study/courses/undergraduate/biological-sciences/",
+      "录取要求": "Our minimum entry standard is 5, 5, 5 overall, from:\n5 in Biology\n5 in Chemistry, Physics (1 or 2 or C) or Calculus (AB or BC)\n5 in another subject (excluding Art, Music and languages other than English)",
+      "语言要求": "100 overall (minimum 22 in all elements)"
+    },
+    {
+      "热门专业": "Medical Biosciences with Management：https://www.imperial.ac.uk/study/courses/undergraduate/medical-biosciences-management/",
+      "录取要求": "Our minimum entry standard is 5, 5, 5 overall, from:\n5 in Biology\n5 in Chemistry\n5 in another Maths or Science subject",
+      "语言要求": "100 overall (minimum 22 in all elements)"
+    },
+    {
+      "热门专业": "Medical Biosciences：https://www.imperial.ac.uk/study/courses/undergraduate/medical-biosciences/",
+      "录取要求": "Our minimum entry standard is 5, 5, 5 overall, from:\n5 in Biology\n5 in Chemistry\n5 in another Maths or Science subject",
+      "语言要求": "100 overall (minimum 22 in all elements)"
+    },
+    {
+      "热门专业": "Physics：https://www.imperial.ac.uk/study/courses/undergraduate/physics-bsc/",
+      "录取要求": "Our minimum entry standard is 5, 5, 5, 5, 5 overall, from:\n5 in Calculus BC\n5 in Physics C Electricity and Magnetism\n5 in Physics C Mechanics\n5 in Chemistry, Statistics, Computer Science, Macro or Micro Economics",
+      "语言要求": "100 overall (minimum 22 in all elements)",
+      "额外要求": "Admissions test (ESAT)"
+    },
+    {
+      "热门专业": "Economics, Finance and Data Science：https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
+      "录取要求": "Our minimum entry standard is 5, 5, 5 overall, to include:\n5 in Calculus BC\n5 in two other subjects",
+      "语言要求": "100 overall (minimum 22 in all elements)",
+      "额外要求": "Admissions test (TMUA)"
+    },
+    {
+      "学校名称": "UCL",
+      "排名": 9.0,
+      "热门专业": "Psychology BSc：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/psychology-bsc#tab3-other",
+      "录取要求": "5,5,5,5,4 in five distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 3: Overall score of 100 with 25/30 in reading and writing and 23/30 in speaking and listening.",
+      "查询地址": "语言：https://www.ucl.ac.uk/prospective-students/undergraduate/how-apply/english-language-requirements"
+    },
+    {
+      "热门专业": "Management Science BSc：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/management-science-bsc",
+      "录取要求": "5,5,5,5,4 in five distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 4: Overall score of 109 with 27/30 in reading and writing and 23/30 in speaking and listening.",
+      "额外要求": "TARA Admissions Test"
+    },
+    {
+      "热门专业": "International Management BSc：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/international-management-bsc",
+      "录取要求": "5,5,5,5 in four distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 4: Overall score of 109 with 27/30 in reading and writing and 23/30 in speaking and listening."
+    },
+    {
+      "热门专业": "Economics BSc (Econ)：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/economics-bsc-econ",
+      "录取要求": "5,5,5,5,4 in five distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 2: Overall score of 96 with 24/30 in reading and writing and 22/30 in speaking and listening",
+      "额外要求": "TMUA Admissions Test",
+      "查询地址": "不允许补考"
+    },
+    {
+      "热门专业": "Mathematics with Economics BSc：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/mathematics-economics-bsc#tab3-other",
+      "录取要求": "5,5,5,5,5 in five distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 1: Overall score of 92 with 24/30 in reading and writing and 20/30 in speaking and listening",
+      "额外要求": "Sixth Term Examination Papers (STEP)",
+      "查询地址": "不允许补考"
+    },
+    {
+      "热门专业": "Economics and Statistics BSc (Econ)：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/economics-and-statistics-bsc-econ",
+      "录取要求": "5,5,5,5,4 in five distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 2: Overall score of 96 with 24/30 in reading and writing and 22/30 in speaking and listening",
+      "查询地址": "不允许补考"
+    },
+    {
+      "热门专业": "Earth Sciences BSc (Hons)：https://study.ed.ac.uk/programmes/undergraduate/47-earth-sciences",
+      "录取要求": "5,5,5 in three distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 1: Overall score of 92 with 24/30 in reading and writing and 20/30 in speaking and listening"
+    },
+    {
+      "热门专业": "Chemistry BSc：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/chemistry-bsc#tab3-other",
+      "录取要求": "5,5,5,5 in four distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 2: Overall score of 96 with 24/30 in reading and writing and 22/30 in speaking and listening"
+    },
+    {
+      "热门专业": "Physics BSc：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/physics-bsc",
+      "录取要求": "5,5,5,5,4 in five distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 1: Overall score of 92 with 24/30 in reading and writing and 20/30 in speaking and listening"
+    },
+    {
+      "热门专业": "Mathematics BSc：https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/mathematics-bsc",
+      "录取要求": "5,5,5,5,5 in five distinctive AP subjects, taken in the final three years of high school.",
+      "语言要求": "Level 1: Overall score of 92 with 24/30 in reading and writing and 20/30 in speaking and listening",
+      "额外要求": "Sixth Term Examination Papers (STEP)",
+      "查询地址": "不允许补考"
+    },
+    {
+      "学校名称": "爱丁堡大学The University of Edinburgh",
+      "排名": 25.0,
+      "热门专业": "Psychology BSc (Hons)：https://study.ed.ac.uk/programmes/undergraduate/370-psychology#entry-requirements",
+      "录取要求": "555 One of:\nAP Calculus at 4+;\nAP Precalculus at 4+ PLUS one of AP Biology, AP Chemistry, AP Computer Science, AP Geography, AP Physics or AP Psychology at 4+;",
+      "语言要求": "92+",
+      "查询地址": "https://www.ed.ac.uk/studying/international/country/americas/united-states-of-america"
+    },
+    {
+      "热门专业": "Psychology and Business MA (Hons)：https://study.ed.ac.uk/programmes/undergraduate/116-psychology-and-business",
+      "录取要求": "555 One of:\nAP Calculus at 4+;\nAP Precalculus at 4+ PLUS one of AP Biology, AP Chemistry, AP Computer Science, AP Geography, AP Physics or AP Psychology at 4+;",
+      "语言要求": "92+"
+    },
+    {
+      "热门专业": "Economics MA (Hons)：https://study.ed.ac.uk/programmes/undergraduate/122-economics#entry-requirements",
+      "录取要求": "555\nAP Calculus at 4+\n*Economics with Mathematics and Economics with Statistics degrees have higher requirements",
+      "语言要求": "92+"
+    },
+    {
+      "热门专业": "Economics and Mathematics MA (Hons)：https://study.ed.ac.uk/programmes/undergraduate/133-economics-and-mathematics",
+      "录取要求": "555\nAP Calculus at 4+\n*Economics with Mathematics and Economics with Statistics degrees have higher requirements",
+      "语言要求": "92+"
+    },
+    {
+      "热门专业": "Economics and Statistics MA (Hons)：https://study.ed.ac.uk/programmes/undergraduate/134-economics-and-statistics",
+      "录取要求": "555\nAP Calculus at 4+\n*Economics with Mathematics and Economics with Statistics degrees have higher requirements",
+      "语言要求": "92+"
+    },
+    {
+      "热门专业": "Business and Economics MA (Hons)：https://study.ed.ac.uk/programmes/undergraduate/186-business-and-economics",
+      "录取要求": "555One of:\nAP Calculus or AP Precalculus at 4+;\nACT Maths component at 27+\nSAT Maths component at 620+",
+      "语言要求": "92+"
+    },
+    {
+      "热门专业": "Chemistry BSc (Hons)：https://study.ed.ac.uk/programmes/undergraduate/21-chemistry",
+      "录取要求": "555 Subject specific requirements for Biomedical Sciences and Medical Sciences include both Biology and Chemistry. This can either be an AP exam at grade 4 or 5, or SAT Subject Test* at 650+.",
+      "语言要求": "92+"
+    },
+    {
+      "热门专业": "Physics BSc (Hons)：https://study.ed.ac.uk/programmes/undergraduate/33-physics",
+      "录取要求": "555，Required subjects for programmes in the School of Physics: AP calculus at 4 and Physics. 数学5",
+      "语言要求": "92+"
+    },
+    {
+      "热门专业": "Earth Science and Physical Geography BSc (Hons)：https://study.ed.ac.uk/programmes/undergraduate/54-earth-science-and-physical-geography",
+      "录取要求": "554，Required subjects for Earth Sciences programmes are: two from Biology*, Chemistry*, Mathematics/Calculus*, Physics*, Environmental Science, or Geography (* one of your two subjects must be from the asterisked subjects shown here). Mathematics/Calculus is required at A at 11th or 12th Grade, or 4 at AP.",
+      "语言要求": "92+"
+    },
+    {
+      "热门专业": "Earth Sciences BSc (Hons)：https://study.ed.ac.uk/programmes/undergraduate/47-earth-sciences",
+      "录取要求": "554，Required subjects for Earth Sciences programmes are: two from Biology*, Chemistry*, Mathematics/Calculus*, Physics*, Environmental Science, or Geography (* one of your two subjects must be from the asterisked subjects shown here). Mathematics/Calculus is required at A at 11th or 12th Grade, or 4 at AP.",
+      "语言要求": "92+"
+    },
+    {
+      "学校名称": "曼彻斯特大学University of Manchester",
+      "排名": 27.0,
+      "热门专业": "BSc Psychology：https://www.manchester.ac.uk/study/undergraduate/courses/2026/00653/bsc-psychology/",
+      "录取要求": "555，including one or more of: Psychology, Biology, Human Biology, Chemistry, Physics, Statistics, Mathematics, Further Maths, Applied Science",
+      "语言要求": "100+",
+      "查询地址": "https://www.manchester.ac.uk/study/international/country-specific-information/usa/entry-requirements/#country-profile\n语言：https://www.manchester.ac.uk/study/international/admissions/language-requirements/"
+    },
+    {
+      "热门专业": "BSc Educational Psychology：https://www.manchester.ac.uk/study/undergraduate/courses/2026/11534/bsc-educational-psychology/",
+      "录取要求": 554,
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BSc Education：https://www.manchester.ac.uk/study/undergraduate/courses/2026/12384/bsc-education/",
+      "录取要求": 544,
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BSc Chemistry：https://www.manchester.ac.uk/study/undergraduate/courses/2026/00544/bsc-chemistry/",
+      "录取要求": "555，including Chemistry and at least one other science or mathematics subject",
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BSc Biochemistry：https://www.manchester.ac.uk/study/undergraduate/courses/2026/00521/bsc-biochemistry/",
+      "录取要求": "555，including grades AB in Chemistry and one of Biology, Physics and Mathematics",
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BEng Chemical Engineering：https://www.manchester.ac.uk/study/undergraduate/courses/2026/03340/beng-chemical-engineering/",
+      "录取要求": 555,
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BA Cultural, Creative and Media Industries：https://www.manchester.ac.uk/study/undergraduate/courses/2026/21695/ba-cultural-creative-and-media-industries/",
+      "录取要求": 554,
+      "语言要求": "100+"
+    },
+    {
+      "热门专业": "BA Digital Media, Culture and Society：https://www.manchester.ac.uk/study/undergraduate/courses/2026/21197/ba-digital-media-culture-and-society/",
+      "录取要求": 554,
+      "语言要求": "100+"
+    },
+    {
+      "热门专业": "BAEcon Economics：https://www.manchester.ac.uk/study/undergraduate/courses/2026/05134/baecon-economics/",
+      "录取要求": "555，有科目偏好",
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BSc Economics：https://www.manchester.ac.uk/study/undergraduate/courses/2026/10224/bsc-economics/",
+      "录取要求": "555，需要数学，有偏好",
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BAEcon Accounting and Finance：https://www.manchester.ac.uk/study/undergraduate/courses/2026/05151/baecon-accounting-and-finance/",
+      "录取要求": "555，有科目偏好",
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BAEcon Economics and Data Analytics：https://www.manchester.ac.uk/study/undergraduate/courses/2026/18105/baecon-economics-and-data-analytics/",
+      "录取要求": "555，有科目偏好",
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BSc International Business, Finance and Economics：https://www.manchester.ac.uk/study/undergraduate/courses/2026/09224/bsc-international-business-finance-and-economics/",
+      "录取要求": "555，有科目偏好",
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BSc Environmental Science：https://www.manchester.ac.uk/study/undergraduate/courses/2026/12124/bsc-environmental-science/",
+      "录取要求": "554，Subjects considered to be science subjects are Biology, Chemistry, Physics, Mathematics, Further Mathematics, Geology, Environmental Science, and Geography.",
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BSc Environmental Management：https://www.manchester.ac.uk/study/undergraduate/courses/2026/12385/bsc-environmental-management/",
+      "录取要求": 544,
+      "语言要求": "90+"
+    },
+    {
+      "热门专业": "BSc Physics：https://www.manchester.ac.uk/study/undergraduate/courses/2026/00638/bsc-physics/",
+      "录取要求": "5555，强制Mathematics or Further Mathematics.",
+      "语言要求": "80+"
+    },
+    {
+      "热门专业": "BSc Mathematics：https://www.manchester.ac.uk/study/undergraduate/courses/2026/00590/bsc-mathematics/",
+      "录取要求": "555，强制Mathematics or Further Mathematics.",
+      "语言要求": "90+"
+    },
+    {
+      "学校名称": "伦敦国王学院\nKing's College London",
+      "排名": 19.0,
+      "热门专业": "Mathematics BSc\nhttps://www.kcl.ac.uk/study/undergraduate/courses/mathematics-bsc/requirements",
+      "录取要求": "5555，要求数学5",
+      "语言要求": "Band D：92 overall with 23 in writing and 20 in the other skills.",
+      "查询地址": "语言：https://www.kcl.ac.uk/study/undergraduate/how-to-apply/english-language-requirements#section-6"
+    },
+    {
+      "热门专业": "Psychology BSc\nhttps://www.kcl.ac.uk/study/undergraduate/courses/psychology-bsc/requirements",
+      "录取要求": "5555，one of Biology, Chemistry, Mathematics, Physics or Psychology.",
+      "语言要求": "Band B：100 overall with a minimum of 25 in writing and 23 in each of the other skills."
+    },
+    {
+      "热门专业": "Physics BSc\nhttps://www.kcl.ac.uk/study/undergraduate/courses/physics-bsc/requirements",
+      "录取要求": "555，A in Mathematics and Physics.",
+      "语言要求": "Band D：92 overall with 23 in writing and 20 in the other skills."
+    },
+    {
+      "学校名称": "华威大学\nUniversity of Warwick",
+      "排名": 8.0,
+      "热门专业": "Economics BSc\nhttps://warwick.ac.uk/study/undergraduate/courses/bsc-economics/",
+      "录取要求": "5555，包括数学",
+      "语言要求": "Band C：100，with minimum of 21 in Listening, 21 in Writing, 22 in Reading and 23 in Speaking",
+      "查询地址": "语言：https://warwick.ac.uk/study/undergraduate/apply/english-language-requirements/#faq-66"
+    },
+    {
+      "热门专业": "Management BSc\nhttps://warwick.ac.uk/study/undergraduate/courses/bsc-management/",
+      "录取要求": 5555,
+      "语言要求": "Band C：100，with minimum of 21 in Listening, 21 in Writing, 22 in Reading and 23 in Speaking"
+    },
+    {
+      "热门专业": "Computer Science BSc\nhttps://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+      "录取要求": "55555，数学5",
+      "语言要求": "Band A：87，with minimum of 21 in Listening, 21 in Writing, 22 in Reading and 23 in Speaking",
+      "额外要求": "TMUA"
+    },
+    {
+      "学校名称": "伯明翰大学\nUniversity of Birmingham",
+      "排名": 16.0,
+      "热门专业": "Economics BSc\nhttps://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/economics-bsc",
+      "录取要求": "555，数学5",
+      "语言要求": "TOEFL: 88 overall with no less than 21 in Reading, 20 in Listening, 22 in Speaking and 21 in Writing."
+    },
+    {
+      "热门专业": "Mechanical Engineering BEng\nhttps://www.birmingham.ac.uk/study/undergraduate/subjects/mechanical-engineering-courses/mechanical-engineering-beng?location=USA",
+      "录取要求": "554，数学5",
+      "语言要求": "TOEFL: 80 overall with no less than 19 in Reading, 19 in Listening, 21 in Speaking and 19 in Writing."
+    },
+    {
+      "热门专业": "Computer Science BSc：https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-bsc?location=USA",
+      "录取要求": "5555，数学5",
+      "语言要求": "TOEFL: 80 overall with no less than 19 in Reading, 19 in Listening, 21 in Speaking and 19 in Writing."
+    },
+    {
+      "学校名称": "利兹大学\nUniversity of Leeds",
+      "排名": 26.0,
+      "热门专业": "Accounting and Finance BSc\nhttps://courses.leeds.ac.uk/f834/accounting-and-finance-bsc?searchOrigin=query%3DManagement%26type%3DUG%26term%3D202627#entry",
+      "录取要求": 555,
+      "语言要求": "TOEFL iBT at 88 overall with no less than 20 in reading, 19 in listening, 22 in speaking and 21 in writing.",
+      "查询地址": "https://business.leeds.ac.uk/dir-record/lubs-qualifications/558/united-states-of-america-usa\n语言：https://www.leeds.ac.uk/international-admissions/doc/entry-requirements"
+    },
+    {
+      "热门专业": "Mechanical Engineering BEng\nhttps://courses.leeds.ac.uk/5200/mechanical-engineering-beng?searchOrigin=query%3DMechanical%2BEngineering%26type%3DUG%26term%3D202627#entry",
+      "录取要求": "5555，including Mathematics and either Physics or Chemistry.",
+      "语言要求": "TOEFL iBT at 80 overall with no less than 18 in reading, 17 in listening, 20 in speaking and 19 in writing."
+    },
+    {
+      "热门专业": "Biology BSc\nhttps://courses.leeds.ac.uk/3165/biology-bsc?searchOrigin=query%3DBiology%26type%3DUG%26term%3D202627",
+      "录取要求": "554，Including biology and preferably another science or science-related subject.",
+      "语言要求": "TOEFL iBT at 80 overall with no less than 18 in reading, 17 in listening, 20 in speaking and 19 in writing."
+    }
+  ]
+}

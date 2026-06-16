@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="加州大学系统互动地图 - 展示UC系统10所校区的分布、录取数据、学术信息等">
+  <meta name="author" content="LYC">
+  <meta name="keywords" content="加州大学,UC系统,大学地图,美国留学,大学申请">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>加州大学系统互动地图</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- 自定义样式 -->
+  <link rel="stylesheet" href="uc-map.css">
+</head>
+
+<body>
+  <!-- 公共信息区域 -->
+  <header id="common-info">
+    <div id="common-info-header">
+      <h1>加州大学系统概述</h1>
+      <button id="toggle-info-btn" aria-expanded="false" aria-controls="common-info-content">展开 ▼</button>
+    </div>
+    <div id="common-info-content" class="collapsed" role="region" aria-labelledby="common-info-header">
+      <p>加州大学系统（University of California）是世界上最具影响力的公立大学系统之一，由10所校区组成。本互动地图展示了加州大学系统的主要校区分布及相关信息。</p>
+      
+      <div class="common-info-grid">
+        <div class="info-item">
+          <h3>系统规模</h3>
+          <ul>
+            <li><strong>校区数量：</strong>10所分校</li>
+            <li><strong>学生总数：</strong>约287,000名</li>
+            <li><strong>本科学生：</strong>约215,000名</li>
+            <li><strong>研究生：</strong>约72,000名</li>
+            <li><strong>教职员工：</strong>约25,000名</li>
+          </ul>
+        </div>
+        <div class="info-item">
+          <h3>学术声誉</h3>
+          <p>UC Berkeley和UCLA常年稳居全球前20，多所分校位列全美前50</p>
+        </div>
+        <div class="info-item">
+          <h3>科研实力</h3>
+          <p>拥有超过50位诺贝尔奖得主，年科研经费超过40亿美元</p>
+        </div>
+        <div class="info-item">
+          <h3>申请难度</h3>
+          <p>热门分校录取率低至10%以下，竞争激烈</p>
+        </div>
+      </div>
+      
+      <!-- 2025年秋季本科申请统计 -->
+      <section class="application-stats-section">
+        <h3>2025年秋季本科申请统计</h3>
+        <div class="stats-container">
+          <p>UC系统2025年秋季总申请量：<strong>249,824</strong>份</p>
+          <div class="chart-container">
+            <canvas id="applicationsChart" aria-label="UC系统申请统计图表" role="img"></canvas>
+          </div>
+          <p class="stats-note">数据来源：加州大学官方2025年秋季本科申请初步统计</p>
+        </div>
+      </section>
+      
+      <!-- 本科录取时间线 -->
+      <section class="timeline-section">
+        <h3>本科录取时间线</h3>
+        <div class="timeline">
+          <!-- <div class="timeline-item">
+            <div class="timeline-date">2025年7月1日 - 31日</div>
+            <div class="timeline-content">
+              <h4>Merced春季2026申请期</h4>
+              <p>Merced校区春季2026学期的申请提交期</p>
+            </div>
+          </div> -->
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2025年8月1日</div>
+            <div class="timeline-content">
+              <h4>秋季2026申请开放</h4>
+              <p>所有UC校区秋季2026学期的申请系统开放</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">25年10月1日 - 12月1日</div>
+            <div class="timeline-content">
+              <h4>秋季2026申请提交期</h4>
+              <p>所有UC校区统一的申请提交时间</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2026年3月1日 - 31日*</div>
+            <div class="timeline-content">
+              <h4>秋季2026录取结果通知</h4>
+              <p>*部分校区可能在3月之前发布录取结果</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2026年5月1日</div>
+            <div class="timeline-content">
+              <h4>确认录取（Statement of Intent to Register）截止</h4>
+              <p>所有秋季2026录取的一年级学生提交SIR的截止日期</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2026年7月1日</div>
+            <div class="timeline-content">
+              <h4>最终官方成绩单截止</h4>
+              <p>打算参加2026年秋季的学生必须将最终官方成绩单邮寄或电子提交至校区招生办公室</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2026年7月15日</div>
+            <div class="timeline-content">
+              <h4>AP考试成绩截止</h4>
+              <p>官方AP考试成绩必须邮寄或电子提交的截止日期</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <p>选择地图上的学校标记可以查看各校区详细信息，包括录取数据、热门专业、学费等。</p>
+    </div>
+  </header>
+  
+  <!-- 地图容器 -->
+  <main>
+    <div id="map" role="application" aria-label="加州大学系统校区地图"></div>
+  </main>
+  
+  <!-- 侧边栏信息面板 -->
+  <aside id="sidebar" aria-hidden="true">
+    <button id="close-btn" aria-label="关闭信息面板">关闭</button>
+    <div id="info" role="region" aria-labelledby="school-info-title">
+      <h2 id="school-info-title">加州大学系统 (UC)</h2>
+    </div>
+  </aside>
+
+  <!-- 第三方库脚本 -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <!-- Tableau嵌入脚本 -->
+  <script type="module" src="https://visualizedata.ucop.edu/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+  
+  <!-- 自定义脚本 - 模块化分离 -->
+  <script src="js/map-initialize.js"></script>
+  <script src="js/data-manager.js"></script>
+  <script src="js/ui-utils.js"></script>
+  <script src="js/map-events.js"></script>
+  <script src="js/main-app.js"></script>
+</body>
+
+</html>

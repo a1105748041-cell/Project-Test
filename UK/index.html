@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+  <html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="英国名校互动地图 - 查看英国知名大学的申请数据和专业信息">
+    <meta name="keywords" content="英国大学,名校,留学,申请数据,互动地图">
+    <title>英国名校互动地图</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/uk-map.css">
+    <link rel="stylesheet" href="css/application-timeline.css">
+  </head>
+
+<body>
+  <!-- 公共信息区域 -->
+  <div id="common-info">
+    <div id="common-info-header">
+      <h1>英国大学系统概述</h1>
+      <button id="toggle-info-btn">展开 ▼</button>
+    </div>
+    <div id="common-info-content" class="collapsed">
+      <p>英国拥有世界上最古老、最负盛名的大学体系之一，包括牛津、剑桥等世界顶尖学府。本互动地图展示了英国知名大学的分布及相关申请数据。</p>
+      <div class="common-info-grid">
+        <div class="info-item">
+          <h3>系统规模</h3>
+          <p>英国共有160多所大学，国际学生超过60万人</p>
+        </div>
+        <div class="info-item">
+          <h3>学术声誉</h3>
+          <p>英国有多所大学位列全球前100，牛津、剑桥常年稳居全球前10</p>
+        </div>
+        <div class="info-item">
+          <h3>学制特点</h3>
+          <p>本科通常为3年制，苏格兰为4年制，硕士多数为1年制</p>
+        </div>
+        <div class="info-item">
+          <h3>申请难度</h3>
+          <p>罗素集团名校录取率普遍在10-20%之间，竞争激烈</p>
+        </div>
+      </div>
+<!--       
+      <h3>英美大学体系对比</h3>
+      <div class="common-info-grid">
+        <div class="info-item">
+          <h4>学制对比</h4>
+          <p><strong>英国：</strong>本科3年制(苏格兰4年)，硕士1年制<br>
+          <strong>美国：</strong>本科4年制，硕士1-2年制，博士4-7年</p>
+        </div>
+        <div class="info-item">
+          <h4>申请方式</h4>
+          <p><strong>英国：</strong>通过UCAS系统申请，最多5个志愿，一份PS<br>
+          <strong>美国：</strong>通过Common App或各校官网，多校申请，多份文书</p>
+        </div>
+        <div class="info-item">
+          <h4>录取标准</h4>
+          <p><strong>英国：</strong>以学术成绩为主，重视专业匹配度<br>
+          <strong>美国：</strong>综合评估，学术+课外活动+文书+推荐信</p>
+        </div>
+        <div class="info-item">
+          <h4>专业选择</h4>
+          <p><strong>英国：</strong>入学即确定专业，专业性强，转专业较难<br>
+          <strong>美国：</strong>前两年通识教育，后两年专业，转专业灵活</p>
+        </div>
+      </div>
+      
+      <h3>英美大学教学方式对比</h3>
+      <div class="common-info-grid">
+        <div class="info-item">
+          <h4>教学模式</h4>
+          <p><strong>英国：</strong>讲座+小组讨论+导师制，强调自主学习<br>
+          <strong>美国：</strong>讲座+研讨会+实验课，互动性强，作业频繁</p>
+        </div>
+        <div class="info-item">
+          <h4>评估方式</h4>
+          <p><strong>英国：</strong>期末考试为主，少量平时作业，最终成绩占比大<br>
+          <strong>美国：</strong>持续评估，平时作业+期中+期末，各占一定比例</p>
+        </div>
+        <div class="info-item">
+          <h4>师生关系</h4>
+          <p><strong>英国：</strong>导师制下关系更正式，学术指导为主<br>
+          <strong>美国：</strong>教授更易接近，可提供学术和职业双重指导</p>
+        </div>
+        <div class="info-item">
+          <h4>校园生活</h4>
+          <p><strong>英国：</strong>学院制提供住宿和社交，社团活动丰富<br>
+          <strong>美国：</strong>兄弟会/姐妹会文化，体育文化浓厚，校园活动多样</p>
+        </div>
+      </div> -->
+      
+      <!-- 英国本科申请时间线与任务清单 -->
+      <div class="timeline-section">
+        <h3>英国本科申请时间线与任务清单</h3>
+        <p>（适用于申请2026年9月入学，可类推未来年份）</p>
+        
+        <div class="timeline">
+          <!-- 阶段一 -->
+          <div class="timeline-item">
+            <div class="timeline-date">前一年的 3–4月</div>
+            <div class="timeline-content">
+              <h4>🎯 阶段一：前期规划</h4>
+              <p><strong>目标：</strong>确定方向 + 了解体系</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>明确想申请的学科方向（如商科、传媒、工程、心理等）</li>
+                <li>了解英国本科体系、课程结构、申请流程（UCAS）</li>
+                <li>浏览各大学官网了解课程内容、入学要求、学费、语言标准</li>
+                <li>初步列出感兴趣的10所左右大学</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段二 -->
+          <div class="timeline-item">
+            <div class="timeline-date">前一年的 5–6月</div>
+            <div class="timeline-content">
+              <h4>🧩 阶段二：学术准备</h4>
+              <p><strong>目标：</strong>提升成绩 + 明确申请资格</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>检查你的课程体系（A-level / AP）是否符合直申条件</li>
+                <li>制定成绩目标（预测成绩 Predicted Grades）</li>
+                <li>规划语言考试时间（IELTS / TOEFL / PTE）</li>
+                <li>如果需要作品集（艺术类）或测试（TSA, LNAT, MAT），开始准备</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段三 -->
+          <div class="timeline-item">
+            <div class="timeline-date">前一年的 7–8月</div>
+            <div class="timeline-content">
+              <h4>✍️ 阶段三：文书起草</h4>
+              <p><strong>目标：</strong><a href="https://www.youtube.com/watch?v=e-TM0KX_xv8&t=5s" target="_blank">撰写Personal Statement草稿</a></p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>起草 Personal Statement（PS）</li>
+                <li>讲清楚学术动机、学习经历、未来目标</li>
+                <li>控制在4000字符内，重点回答三个核心问题：<br>你为什么想学习这个专业？<br>你的学习经历对学习该专业有什么帮助？<br>课外活动经历对专业学习的帮助？</li>
+                <li>联系学校老师准备推荐信（Reference）</li>
+                <li>收集成绩单（中英文）、在读证明、获奖证书等</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段四 -->
+          <div class="timeline-item">
+            <div class="timeline-date">前一年的 9月</div>
+            <div class="timeline-content">
+              <h4>🏛️ 阶段四：选校定稿</h4>
+              <p><strong>目标：</strong>确定申请学校与课程</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>最终确定5个志愿（UCAS最多可选5个）</li>
+                <li>核查每所学校的入学要求是否匹配</li>
+                <li>向学校索取Predicted Grades</li>
+                <li>完善UCAS账号注册与基本信息填写</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段五 -->
+          <div class="timeline-item">
+            <div class="timeline-date">前一年的 10–12月</div>
+            <div class="timeline-content">
+              <h4>📮 阶段五：正式提交申请</h4>
+              <p><strong>目标：</strong>递交UCAS申请表</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>学校可于10–12月随时提交（咱们学校一般10月完成递交）</li>
+                <li>上传或注明语言成绩（如Pending也行）</li>
+                <li>检查推荐信是否由老师通过UCAS上传</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段六 -->
+          <div class="timeline-item">
+            <div class="timeline-date">次年 1–3月</div>
+            <div class="timeline-content">
+              <h4>📩 阶段六：等待结果 + 面试准备</h4>
+              <p><strong>目标：</strong>跟进申请状态</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>定期登录UCAS Track查看进度</li>
+                <li>回复大学邮件、完成可能的问卷或面试（特别是艺术、牛剑）</li>
+                <li>提交缺失的材料或更新语言成绩</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段七 -->
+          <div class="timeline-item">
+            <div class="timeline-date">次年 3–5月</div>
+            <div class="timeline-content">
+              <h4>🪶 阶段七：Offer阶段</h4>
+              <p><strong>目标：</strong>接受录取 + 准备应对条件</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>核查收到的 Offer 类型：Conditional Offer（有条件）、Unconditional Offer（无条件）</li>
+                <li>在UCAS上选择：Firm choice（首选）、Insurance choice（保底）</li>
+                <li>继续准备雅思或补交正式成绩单</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段八 -->
+          <div class="timeline-item">
+            <div class="timeline-date">次年 5–7月</div>
+            <div class="timeline-content">
+              <h4>🧾 阶段八：考试与成绩公布</h4>
+              <p><strong>目标：</strong>确保满足条件</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>参加A-level / AP 等正式考试</li>
+                <li>成绩发布后，UCAS系统会自动更新匹配</li>
+                <li>如未达条件，可考虑Appeal或Clearing（补录）</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段九 -->
+          <div class="timeline-item">
+            <div class="timeline-date">次年 7–8月</div>
+            <div class="timeline-content">
+              <h4>🎓 阶段九：确认入学</h4>
+              <p><strong>目标：</strong>完成录取手续与签证准备</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>收到 CAS（Confirmation of Acceptance for Studies）</li>
+                <li>缴纳押金（Deposit）</li>
+                <li>办理学生签证（Student Visa，原Tier 4）</li>
+                <li>安排住宿（校内宿舍或私人公寓）</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段十 -->
+          <div class="timeline-item">
+            <div class="timeline-date">次年 8–9月</div>
+            <div class="timeline-content">
+              <h4>🧳 阶段十：出发前准备</h4>
+              <p><strong>目标：</strong>顺利入学与生活适应</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>订机票、购买保险、准备生活用品</li>
+                <li>了解英国NHS医疗注册、SIM卡、银行开户流程</li>
+                <li>关注大学的新生指南与报到时间</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 阶段十一 -->
+          <div class="timeline-item">
+            <div class="timeline-date">次年 9–10月</div>
+            <div class="timeline-content">
+              <h4>🏁 阶段十一：正式入学</h4>
+              <p><strong>目标：</strong>注册并融入校园</p>
+              <p><strong>✅ 任务：</strong></p>
+              <ul>
+                <li>完成学校注册与选课</li>
+                <li>参加Welcome Week（迎新周）</li>
+                <li>领取学生证、激活图书馆账户</li>
+                <li>熟悉导师系统（Personal Tutor / Academic Advisor）</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="map"></div>
+  
+  <!-- 学校信息侧边栏 -->
+  <div id="sidebar">
+    <button id="close-btn">关闭</button>
+    <div id="info">
+      <h2>英国名校</h2>
+      <p>请选择一所学校以查看详细信息。</p>
+    </div>
+  </div>
+  
+
+
+  <!-- 预加载关键资源 -->
+  <link rel="preload" href="https://unpkg.com/leaflet/dist/leaflet.js" as="script">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/chart.js" as="script">
+  
+  <!-- 引入外部JavaScript文件 - 使用defer提高加载性能 -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
+  <script src="js/map-initialize.js" defer></script>
+  <script src="js/sidebar-utils.js" defer></script>
+  
+  <!-- 图表相关脚本 - Chart.js需要先加载 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="js/chart-utils.js" defer></script>
+  
+  <!-- 申请流程时间线功能 -->
+  <script src="js/application-timeline-new.js" defer></script>
+  
+  <!-- 事件处理和数据 -->
+  <script src="js/map-events.js" defer></script>
+  <script src="stats/school_programs_data.js" defer></script>
+  
+  <!-- 初始化地图事件 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      setupMapEvents();
+      
+      // 再次确认window对象上的函数是否可用
+      console.log('【初始化】window.showApplicationTimeline函数状态:', typeof window.showApplicationTimeline);
+      
+
+    });
+  </script>
+</body>
+
+</html>

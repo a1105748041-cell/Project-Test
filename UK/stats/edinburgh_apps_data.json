@@ -1,0 +1,155 @@
+[
+  {
+    "Faculty": "商学院",
+    "Programme": "会计学",
+    "Apps": 908,
+    "Offers": 365,
+    "Places": 82,
+    "Apps per offer": 2.5,
+    "Apps per place": 11.1
+  },
+  {
+    "Faculty": "商学院",
+    "Programme": "商业研究",
+    "Apps": 1676,
+    "Offers": 518,
+    "Places": 73,
+    "Apps per offer": 3.2,
+    "Apps per place": 23.0
+  },
+  {
+    "Faculty": "商学院",
+    "Programme": "国际商务",
+    "Apps": 314,
+    "Offers": 154,
+    "Places": 37,
+    "Apps per offer": 2.0,
+    "Apps per place": 8.5
+  },
+  {
+    "Faculty": "爱丁堡艺术学院",
+    "Programme": "建筑学",
+    "Apps": 489,
+    "Offers": 261,
+    "Places": 55,
+    "Apps per offer": 1.9,
+    "Apps per place": 8.9
+  },
+  {
+    "Faculty": "爱丁堡艺术学院",
+    "Programme": "艺术",
+    "Apps": 156,
+    "Offers": 90,
+    "Places": 19,
+    "Apps per offer": 1.7,
+    "Apps per place": 8.2
+  },
+  {
+    "Faculty": "爱丁堡艺术学院",
+    "Programme": "设计与技术",
+    "Apps": 1252,
+    "Offers": 337,
+    "Places": 80,
+    "Apps per offer": 3.7,
+    "Apps per place": 15.7
+  },
+  {
+    "Faculty": "爱丁堡艺术学院",
+    "Programme": "历史艺术",
+    "Apps": 115,
+    "Offers": 98,
+    "Places": 14,
+    "Apps per offer": 1.2,
+    "Apps per place": 8.2
+  },
+  {
+    "Faculty": "法学院",
+    "Programme": "法学",
+    "Apps": 801,
+    "Offers": 331,
+    "Places": 77,
+    "Apps per offer": 2.4,
+    "Apps per place": 10.4
+  },
+  {
+    "Faculty": "法学院",
+    "Programme": "法学（Graduate Entry）",
+    "Apps": 126,
+    "Offers": 96,
+    "Places": 29,
+    "Apps per offer": 1.3,
+    "Apps per place": 4.3
+  },
+  {
+    "Faculty": "文学院",
+    "Programme": "英语文学",
+    "Apps": 141,
+    "Offers": 78,
+    "Places": 19,
+    "Apps per offer": 1.8,
+    "Apps per place": 7.4
+  },
+  {
+    "Faculty": "文学院",
+    "Programme": "英语语言与文学",
+    "Apps": 73,
+    "Offers": 43,
+    "Places": 5,
+    "Apps per offer": 1.7,
+    "Apps per place": 14.6
+  },
+  {
+    "Faculty": "文学院",
+    "Programme": "法语",
+    "Apps": 63,
+    "Offers": 47,
+    "Places": 5,
+    "Apps per offer": 1.3,
+    "Apps per place": 12.6
+  },
+  {
+    "Faculty": "文学院",
+    "Programme": "德语",
+    "Apps": 39,
+    "Offers": 22,
+    "Places": 5,
+    "Apps per offer": 1.8,
+    "Apps per place": 7.8
+  },
+  {
+    "Faculty": "文学院",
+    "Programme": "西班牙语",
+    "Apps": 28,
+    "Offers": 17,
+    "Places": 5,
+    "Apps per offer": 1.6,
+    "Apps per place": 5.6
+  },
+  {
+    "Faculty": "心理学与语言科学学院",
+    "Programme": "心理学 BSc",
+    "Apps": 725,
+    "Offers": 408,
+    "Places": 70,
+    "Apps per offer": 1.8,
+    "Apps per place": 10.4
+  },
+  {
+    "Faculty": "心理学与语言科学学院",
+    "Programme": "心理学 MA",
+    "Apps": 168,
+    "Offers": 94,
+    "Places": 21,
+    "Apps per offer": 1.8,
+    "Apps per place": 8.0
+  },
+  {
+    "Faculty": "社会与政治科学学院",
+    "Programme": "国际关系",
+    "Apps": 586,
+    "Offers": 310,
+    "Places": 64,
+    "Apps per offer": 1.9,
+    "Apps per place": 9.2
+  }
+]
