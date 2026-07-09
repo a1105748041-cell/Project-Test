@@ -4,24 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>全球大学互动地图</title>
+    <link rel="stylesheet" href="css/global-styles.css">
+    <link rel="stylesheet" href="css/search-styles.css">
     <style>
-        /* 基本样式 */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            overflow: hidden; /* 避免出现滚动条 */
-        }
-        
-        .button-container h1 {
-            font-size: 1.8em;
-            margin: 0;
-            color: #2c3e50;
+            overflow: hidden;
+            background-color: var(--bg-secondary);
         }
         
         .fixed-header {
@@ -30,69 +18,241 @@
             left: 0;
             right: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%);
+            background-size: 200% 200%;
+            animation: gradientShift 8s ease infinite;
+            box-shadow: 0 4px 20px rgba(26, 54, 93, 0.3);
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .header-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-color), transparent);
+            opacity: 0.6;
         }
         
         .button-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 20px;
-            background-color: #ecf0f1;
-            min-height: 60px;
+            padding: 14px 28px;
+            min-height: 72px;
+            flex-wrap: wrap;
+            gap: 16px;
+            position: relative;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent-color), var(--accent-dark));
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            font-weight: bold;
+            color: var(--text-primary);
+            box-shadow: 0 4px 12px rgba(245, 166, 35, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .logo-icon:hover {
+            transform: scale(1.05) rotate(5deg);
+            box-shadow: 0 6px 20px rgba(245, 166, 35, 0.6);
+        }
+        
+        .button-container h1 {
+            font-size: 22px;
+            margin: 0;
+            color: white;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        
+        .button-container h1::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-color), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .button-container h1:hover::after {
+            opacity: 1;
+        }
+        
+        .search-section {
+            flex: 1;
+            max-width: 550px;
         }
         
         .buttons-right {
             display: flex;
-            gap: 20px;
+            gap: 12px;
+            flex-wrap: wrap;
         }
         
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #3498db;
+        .nav-btn {
+            padding: 11px 26px;
+            font-size: 15px;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.1);
             color: white;
-            border: none;
-            border-radius: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: var(--radius-md);
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
         }
         
-        button:hover {
-            background-color: #2980b9;
+        .nav-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s ease;
         }
         
-        button.active {
-            background-color: #27ae60;
+        .nav-btn:hover::before {
+            left: 100%;
+        }
+        
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .nav-btn.active {
+            background: linear-gradient(135deg, var(--accent-color), var(--accent-dark));
+            color: var(--text-primary);
+            border-color: transparent;
+            box-shadow: 0 4px 12px rgba(245, 166, 35, 0.4);
+        }
+        
+        .nav-btn.active:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(245, 166, 35, 0.6);
         }
         
         .map-container {
             width: 100%;
-            height: calc(100vh - 60px); /* 与button-container高度匹配 */
+            height: calc(100vh - 72px);
             overflow: hidden;
             position: absolute;
-            top: 60px;
+            top: 72px;
             left: 0;
             right: 0;
+            animation: fadeInContainer 0.5s ease-out;
+        }
+        
+        @keyframes fadeInContainer {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
         
         iframe {
             width: 100%;
             height: 100%;
             border: none;
-            display: block; /* 确保没有底部空白 */
+            display: block;
+        }
+        
+        @media (max-width: 900px) {
+            .button-container {
+                flex-direction: column;
+                padding: 16px;
+                min-height: auto;
+            }
+            
+            .logo-section {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .button-container h1 {
+                font-size: 18px;
+            }
+            
+            .search-section {
+                width: 100%;
+                max-width: 100%;
+            }
+            
+            .buttons-right {
+                justify-content: center;
+            }
+            
+            .nav-btn {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+            
+            .map-container {
+                top: auto;
+                bottom: 0;
+                height: calc(100vh - 150px);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .button-container h1 {
+                font-size: 16px;
+            }
+            
+            .logo-icon {
+                width: 36px;
+                height: 36px;
+                font-size: 20px;
+            }
+            
+            .button-container {
+                padding: 12px 14px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="fixed-header">
+        <div class="header-glow"></div>
         <div class="button-container">
-            <h1>全球大学互动地图</h1>
+            <div class="logo-section">
+                <div class="logo-icon">🌍</div>
+                <h1>全球大学互动地图</h1>
+            </div>
+            <div class="search-section" id="search-box-container"></div>
             <div class="buttons-right">
-                <button id="uc-map-btn">加州大学系统地图</button>
-                <button id="uk-map-btn">英国名校地图</button>
-                <button id="usa-map-btn">美国大学地图</button>
-                <!-- <button id="aus-map-btn">澳洲名校地图</button> -->
+                <button class="nav-btn" id="uc-map-btn">加州大学系统</button>
+                <button class="nav-btn" id="uk-map-btn">英国名校地图</button>
+                <button class="nav-btn" id="usa-map-btn">美国大学地图</button>
             </div>
         </div>
     </div>
@@ -101,17 +261,18 @@
         <iframe id="map-frame" src="UC/index.html" width="100%" frameborder="0"></iframe>
     </div>
     
-    <script>
-        // 获取DOM元素
+    <script type="module">
+        import { createSearchBox } from './js/search-utils.js';
+        
+        createSearchBox('search-box-container');
+        
         const ucMapBtn = document.getElementById('uc-map-btn');
         const ukMapBtn = document.getElementById('uk-map-btn');
         const usaMapBtn = document.getElementById('usa-map-btn');
         const mapFrame = document.getElementById('map-frame');
         
-        // 设置默认按钮状态
         ucMapBtn.classList.add('active');
         
-        // UC地图按钮点击事件
         ucMapBtn.addEventListener('click', function() {
             mapFrame.src = 'UC/index.html';
             ucMapBtn.classList.add('active');
@@ -119,7 +280,6 @@
             usaMapBtn.classList.remove('active');
         });
         
-        // 英国地图按钮点击事件
         ukMapBtn.addEventListener('click', function() {
             mapFrame.src = 'UK/index.html';
             ukMapBtn.classList.add('active');
@@ -127,7 +287,6 @@
             usaMapBtn.classList.remove('active');
         });
         
-        // 美国大学地图按钮点击事件
         usaMapBtn.addEventListener('click', function() {
             mapFrame.src = 'USA/index.html';
             usaMapBtn.classList.add('active');

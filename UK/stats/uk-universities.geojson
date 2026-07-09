@@ -12,6 +12,7 @@
       },
       "properties": {
         "name": "圣安德鲁斯大学",
+        "englishName": "University of St Andrews",
         "applications": "18,520",
         "admissions": "1,910",
         "ranking": "2026 Times 第2名，QS 第113名",
@@ -36,6 +37,7 @@
       },
       "properties": {
         "name": "曼彻斯特大学",
+        "englishName": "University of Manchester",
         "applications": "92,500",
         "admissions": "9,985",
         "ranking": "2026 Times 第27名，QS 第35名",
@@ -60,6 +62,7 @@
       },
       "properties": {
         "name": "伦敦大学学院(UCL)",
+        "englishName": "University College London",
         "applications": "77,800+",
         "admissions": "7,680+",
         "ranking": "2026 Times 第9名，QS 第9名",
@@ -84,6 +87,7 @@
       },
       "properties": {
         "name": "爱丁堡大学",
+        "englishName": "University of Edinburgh",
         "applications": "66,293",
         "admissions": "7302",
         "ranking": "2026 Times 第25名，QS 第34名",
@@ -108,6 +112,7 @@
       },
       "properties": {
         "name": "伦敦国王学院(KCL)",
+        "englishName": "King's College London",
         "applications": "72,000+",
         "admissions": "8,500+",
         "ranking": "2026 Times 第19名，QS 第31名",
@@ -132,6 +137,7 @@
       },
       "properties": {
         "name": "华威大学",
+        "englishName": "University of Warwick",
         "applications": "38,000+",
         "admissions": "4,800+",
         "ranking": "2026 Times 第8名，QS 第74名",
@@ -156,6 +162,7 @@
       },
       "properties": {
         "name": "杜伦大学",
+        "englishName": "Durham University",
         "applications": "24,000+",
         "admissions": "4,500+",
         "ranking": "2026 Times 第3名，QS 第94名",
@@ -180,6 +187,7 @@
       },
       "properties": {
         "name": "利兹大学",
+        "englishName": "University of Leeds",
         "applications": "81,700+",
         "admissions": "8,500+",
         "ranking": "2026 Times 第26名，QS 第86名",
@@ -204,6 +212,7 @@
       },
       "properties": {
         "name": "伯明翰大学",
+        "englishName": "University of Birmingham",
         "applications": "75,600+",
         "admissions": "7,800+",
         "ranking": "2026 Times 第16名，QS 第76名",
@@ -228,6 +237,7 @@
       },
       "properties": {
         "name": "牛津大学",
+        "englishName": "University of Oxford",
         "applications": "23,000+",
         "admissions": "3,300+",
         "ranking": "2026 Times 第4名，QS 第4名",
@@ -238,7 +248,7 @@
         "location": "牛津（英格兰南部）",
         "livingCost": "建议 £12,000-£15,000/年",
         "totalBudget": "约 £47,000-£60,000/年",
-        "majorDetails": "<tr><td>PPE (Philosophy, Politics &amp; Economics)</td><td>A*AA</td><td>100+</td><td>面试</td></tr><tr><td>BA Law</td><td>A*AA</td><td>100+</td><td>面试</td></tr><tr><td>BA Mathematics</td><td>A*A*A</td><td>100+</td><td>面试+MAT</td></tr>"
+        "majorDetails": "<tr><td>PPE (Philosophy, Politics & Economics)</td><td>A*AA</td><td>100+</td><td>面试</td></tr><tr><td>BA Law</td><td>A*AA</td><td>100+</td><td>面试</td></tr><tr><td>BA Mathematics</td><td>A*A*A</td><td>100+</td><td>面试+MAT</td></tr>"
       }
     },
     {
@@ -252,6 +262,7 @@
       },
       "properties": {
         "name": "剑桥大学",
+        "englishName": "University of Cambridge",
         "applications": "22,000+",
         "admissions": "3,400+",
         "ranking": "2026 Times 第3名，QS 第6名",
@@ -276,6 +287,7 @@
       },
       "properties": {
         "name": "巴斯大学",
+        "englishName": "University of Bath",
         "applications": "12,000+",
         "admissions": "2,000+",
         "ranking": "2026 Times 第5名，QS 第132名",
@@ -300,6 +312,7 @@
       },
       "properties": {
         "name": "拉夫堡大学",
+        "englishName": "Loughborough University",
         "applications": "18,000+",
         "admissions": "3,000+",
         "ranking": "2026 Times 第12名，QS 第225名",
@@ -324,6 +337,7 @@
       },
       "properties": {
         "name": "谢菲尔德大学",
+        "englishName": "University of Sheffield",
         "applications": "38,000+",
         "admissions": "7,000+",
         "ranking": "2026 Times 第13名，QS 第92名",
@@ -348,6 +362,7 @@
       },
       "properties": {
         "name": "格拉斯哥大学",
+        "englishName": "University of Glasgow",
         "applications": "48,000+",
         "admissions": "8,000+",
         "ranking": "2026 Times 第14名，QS 第79名",
@@ -358,7 +373,7 @@
         "location": "格拉斯哥（苏格兰）",
         "livingCost": "建议 £10,000-£13,000/年",
         "totalBudget": "约 £32,000-£51,000/年",
-        "majorDetails": "<tr><td>MBChB Medicine</td><td>A*AA</td><td>100+</td><td>UKCAT</td></tr><tr><td>LLB Law</td><td>AAB</td><td>90+</td><td>-</td></tr><tr><td>BSc Accounting &amp; Finance</td><td>AAB</td><td>90+</td><td>数学B</td></tr>"
+        "majorDetails": "<tr><td>MBChB Medicine</td><td>A*AA</td><td>100+</td><td>UKCAT</td></tr><tr><td>LLB Law</td><td>AAB</td><td>90+</td><td>-</td></tr><tr><td>BSc Accounting & Finance</td><td>AAB</td><td>90+</td><td>数学B</td></tr>"
       }
     },
     {
@@ -372,6 +387,7 @@
       },
       "properties": {
         "name": "南安普顿大学",
+        "englishName": "University of Southampton",
         "applications": "28,000+",
         "admissions": "5,000+",
         "ranking": "2026 Times 第18名，QS 第87名",
@@ -396,6 +412,7 @@
       },
       "properties": {
         "name": "利物浦大学",
+        "englishName": "University of Liverpool",
         "applications": "32,000+",
         "admissions": "5,500+",
         "ranking": "2026 Times 第18名，QS 第147名",

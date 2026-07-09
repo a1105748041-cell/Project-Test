@@ -1,11 +1,60 @@
 // UC地图应用 - 主应用模块
 ;(function() {
+  let allMarkers = [];
+
+  // 聚焦到指定大学
+  function focusOnUniversity(searchName) {
+    if (!searchName || !window.ucMapState || !window.ucMapState.map) return;
+    
+    const { map } = window.ucMapState;
+    const searchLower = searchName.toLowerCase();
+    
+    if (allMarkers && allMarkers.length > 0) {
+      for (const marker of allMarkers) {
+        const feature = marker.feature;
+        const name = (feature.properties.name || '').toLowerCase();
+        
+        if (name.includes(searchLower)) {
+          const latlng = marker.getLatLng();
+          
+          map.setView(latlng, 12);
+          
+          setTimeout(() => {
+            if (window.ucMapUI && typeof window.ucMapUI.showFull === 'function') {
+              window.ucMapUI.showFull(feature.properties);
+            }
+          }, 500);
+          
+          break;
+        }
+      }
+    }
+  }
+
+  // 检查搜索参数
+  function checkSearchParam() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchName = urlParams.get('search');
+    
+    if (searchName) {
+      const checkInterval = setInterval(() => {
+        if (allMarkers && allMarkers.length > 0) {
+          clearInterval(checkInterval);
+          focusOnUniversity(decodeURIComponent(searchName));
+        }
+      }, 200);
+      
+      setTimeout(() => {
+        clearInterval(checkInterval);
+      }, 10000);
+    }
+  }
+
   // 主应用初始化函数
   function initializeApp() {
     // 确保地图已初始化
     if (!window.ucMapState || !window.ucMapState.map) {
       console.error('地图未初始化，等待初始化完成...');
-      // 等待地图初始化完成
       setTimeout(initializeApp, 100);
       return;
     }
@@ -17,26 +66,28 @@
       .then(data => {
         // 创建图层组管理所有标记
         const markersLayer = L.layerGroup().addTo(map);
-        const markers = [];
 
         // 创建标记
         L.geoJSON(data, {
           pointToLayer: (feature, latlng) => {
             const marker = L.marker(latlng);
             marker.feature = feature;
-            markers.push(marker);
+            allMarkers.push(marker);
             return marker;
           }
         }).addTo(markersLayer);
 
         // 添加标记事件监听
-        window.ucMapEvents.addMarkerEventListeners(markers);
+        window.ucMapEvents.addMarkerEventListeners(allMarkers);
 
         // 初始化全局事件监听
         window.ucMapEvents.initializeEventListeners();
 
         // 初始化图表
         initializeCharts();
+
+        // 检查搜索参数
+        checkSearchParam();
       })
       .catch(error => {
         console.error('加载GeoJSON数据时出错:', error);
