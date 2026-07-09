@@ -306,12 +306,38 @@
   <!-- 初始化地图事件 -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      setupMapEvents();
+      console.log('DOM加载完成，开始初始化地图...');
       
-      // 再次确认window对象上的函数是否可用
+      // 等待所有脚本加载完成
+      let checkCount = 0;
+      const checkReady = setInterval(() => {
+        checkCount++;
+        
+        // 检查地图状态对象是否已初始化
+        if (typeof window.ukMapState !== 'undefined' && window.ukMapState.map) {
+          clearInterval(checkReady);
+          console.log('地图状态对象已就绪，开始设置事件...');
+          setupMapEvents();
+          checkSearchParam();
+        } else if (checkCount > 50) {
+          // 超时处理
+          clearInterval(checkReady);
+          console.error('地图初始化超时，尝试直接创建地图...');
+          // 如果地图未初始化，尝试重新初始化
+          if (typeof L !== 'undefined') {
+            const map = L.map('map').setView([52.8, -1.3], 7);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 18,
+              minZoom: 5
+            }).addTo(map);
+            window.ukMapState = { map: map, sidebarLocked: false, hoverCard: null };
+            setupMapEvents();
+            checkSearchParam();
+          }
+        }
+      }, 100);
+      
       console.log('【初始化】window.showApplicationTimeline函数状态:', typeof window.showApplicationTimeline);
-      
-
     });
   </script>
 </body>

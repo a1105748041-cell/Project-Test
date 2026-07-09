@@ -2,7 +2,20 @@
 function setupMapEvents() {
   // 确保地图状态对象已经初始化
   if (typeof window.ukMapState === 'undefined') {
-    console.error('地图状态对象尚未初始化，setupMapEvents函数无法执行');
+    console.warn('地图状态对象尚未初始化，等待初始化...');
+    // 等待地图状态对象初始化
+    const checkInterval = setInterval(() => {
+      if (typeof window.ukMapState !== 'undefined') {
+        clearInterval(checkInterval);
+        setupMapEvents();
+      }
+    }, 100);
+    
+    // 设置超时
+    setTimeout(() => {
+      clearInterval(checkInterval);
+      console.error('地图状态对象初始化超时');
+    }, 5000);
     return;
   }
 
@@ -108,6 +121,9 @@ function setupMapEvents() {
     }
   });
 
+  // 存储所有标记
+  let allMarkers = [];
+
   // 加载并处理地理数据
   fetchWithRetry("stats/uk-universities.geojson")
     .then(data => {
@@ -117,7 +133,12 @@ function setupMapEvents() {
       const markersLayer = L.layerGroup().addTo(map);
       
       L.geoJSON(data, {
-        pointToLayer: (feature, latlng) => L.marker(latlng).addTo(markersLayer),
+        pointToLayer: (feature, latlng) => {
+          const marker = L.marker(latlng).addTo(markersLayer);
+          marker.feature = feature;
+          allMarkers.push(marker);
+          return marker;
+        },
         onEachFeature: (feature, layer) => {
           layer.on("mouseover", () => showHoverCard(feature));
           layer.on("mouseout", hideHoverCard);
@@ -127,6 +148,55 @@ function setupMapEvents() {
           });
         }
       });
+      
+      // 存储到全局变量以便搜索使用
+      window.ukUniversityMarkers = allMarkers;
     })
     .catch(showDataError);
+}
+
+function focusOnUniversity(searchName) {
+  if (!searchName || typeof window.ukMapState === 'undefined') return;
+  
+  const { map } = window.ukMapState;
+  const searchLower = searchName.toLowerCase();
+  
+  if (window.ukUniversityMarkers && window.ukUniversityMarkers.length > 0) {
+    for (const marker of window.ukUniversityMarkers) {
+      const feature = marker.feature;
+      const name = (feature.properties.name || '').toLowerCase();
+      
+      if (name.includes(searchLower)) {
+        const latlng = marker.getLatLng();
+        
+        map.setView(latlng, 12);
+        
+        setTimeout(() => {
+          if (typeof showFull === 'function') {
+            showFull(feature.properties);
+          }
+        }, 500);
+        
+        break;
+      }
+    }
+  }
+}
+
+function checkSearchParam() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchName = urlParams.get('search');
+  
+  if (searchName) {
+    const checkInterval = setInterval(() => {
+      if (window.ukUniversityMarkers && window.ukUniversityMarkers.length > 0) {
+        clearInterval(checkInterval);
+        focusOnUniversity(decodeURIComponent(searchName));
+      }
+    }, 200);
+    
+    setTimeout(() => {
+      clearInterval(checkInterval);
+    }, 10000);
+  }
 }

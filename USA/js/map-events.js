@@ -262,10 +262,64 @@ function setupMapEvents() {
     });
 }
 
+function focusOnUniversity(searchName) {
+  if (!searchName || typeof map === 'undefined') return;
+  
+  const searchLower = searchName.toLowerCase();
+  
+  if (window.universityMarkers && window.universityMarkers.length > 0) {
+    for (const marker of window.universityMarkers) {
+      const feature = marker.feature;
+      const name = (feature.properties.name || '').toLowerCase();
+      const englishName = (feature.properties.englishName || '').toLowerCase();
+      
+      if (name.includes(searchLower) || englishName.includes(searchLower)) {
+        const latlng = marker.getLatLng();
+        
+        map.setView(latlng, 12);
+        
+        marker.setIcon(window.createSchoolIcon(feature, true));
+        
+        setTimeout(() => {
+          if (typeof window.showPreview === 'function') {
+            window.showPreview(feature.properties);
+          }
+          setTimeout(() => {
+            if (typeof window.showFull === 'function') {
+              window.showFull(feature.properties);
+            }
+          }, 300);
+        }, 500);
+        
+        break;
+      }
+    }
+  }
+}
+
+function checkSearchParam() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchName = urlParams.get('search');
+  
+  if (searchName) {
+    const checkInterval = setInterval(() => {
+      if (window.universityMarkers && window.universityMarkers.length > 0) {
+        clearInterval(checkInterval);
+        focusOnUniversity(decodeURIComponent(searchName));
+      }
+    }, 200);
+    
+    setTimeout(() => {
+      clearInterval(checkInterval);
+    }, 10000);
+  }
+}
+
 // 当DOM加载完成后初始化地图事件
 document.addEventListener('DOMContentLoaded', function() {
+  checkSearchParam();
+  
   if (typeof map === 'undefined') {
-    // 如果地图实例还未初始化，等待一下再尝试
     setTimeout(setupMapEvents, 500);
   } else {
     setupMapEvents();
